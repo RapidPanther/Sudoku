@@ -97,15 +97,15 @@ public class SudokuVerifier {
 		
 		for (int i: correctValues)
 		{
-			boolean x = true;
+			boolean isThere = false;
 			for(int j = 0; j < test.length; j++)
 			{
-				
+				if(i == j)
+				{
+					isThere = true;
+				}
 			}
-			
-			
-			if(!(Arrays.asList(test).contains(i))){
-				System.out.println(i);
+			if(!isThere){
 				return false;
 			}
 		}
