@@ -464,3 +464,6 @@ CompilationAction 1443622618453 TestSudokuVerifier.java
 CompilationAction 1443622618612 TestSudokuVerifier.java
 RefactoringAction 1443622644137 SudokuVerifier.java ADD Object checkRuleFour(String) METHOD
 EditAction 1443622656399 SudokuVerifier.java 2788 9 25 0
+UnitTestCaseAction 1443622967521 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443622967521 TestSudokuVerifier OK
+EditAction 1443622992080 SudokuVerifier.java 3002 9 27 0

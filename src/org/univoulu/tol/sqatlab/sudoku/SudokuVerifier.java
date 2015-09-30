@@ -131,8 +131,8 @@ public class SudokuVerifier {
 
 
 
-	public boolean checkRuleThree(String correctSudoku) {
-		int numbers[] = changeStringToIntArray(correctSudoku);
+	public boolean checkRuleThree(String test) {
+		int numbers[] = changeStringToIntArray(test);
 		
 		int[] digit = new int[9]; 
 		
@@ -153,8 +153,22 @@ public class SudokuVerifier {
 
 
 
-	public boolean checkRuleFour(String failRuleFour) {
-		// TODO Auto-generated method stub
+	public boolean checkRuleFour(String test) {
+		int numbers[][] = changeStringToTwoDimensionalIntArray(test);
+		
+		for(int i= 0; i <9; i++)
+		{
+			int[] digit = new int[9];
+			for(int j = 0; j <9; j++)
+			{
+				digit[j] = numbers[i][j];
+			}
+			if(!checkNineDigits(digit)){
+				//return false;
+			}
+		}
+		
+		
 		return true;
 	}
 	
