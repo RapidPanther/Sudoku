@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testChangeStringToIntArray() {
-		sudokuVerifier = new SudokuVerifier(correctSudoku);
+		sudokuVerifier = new SudokuVerifier();
 		int[] numbers = sudokuVerifier.changeStringToIntArray(correctSudoku);
 		
 		assertEquals(numbers[0], 4);
@@ -23,20 +23,22 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testVerify_CorrectString_ReturnsZero(){
-		int validity = SudokuVerifier.verify(correctSudoku);
+		sudokuVerifier = new SudokuVerifier();
+		int validity = sudokuVerifier.verify(correctSudoku);
 		assertEquals(0, validity);
 	}
 	
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
-		int validity = SudokuVerifier.verify(correctSudoku);
+		sudokuVerifier = new SudokuVerifier();
+		int validity = sudokuVerifier.verify(correctSudoku);
 		assertEquals(-1, validity);
 	}
 	
 	@Test
-	public void testCheckRuleOne_CorrectStringReturnTrue{
-		
-		assertEquals(true, correctSudoku);
+	public void testCheckRuleOne_CorrectStringReturnTrue(){
+		sudokuVerifier = new SudokuVerifier();
+		assertEquals(true, sudokuVerifier.checkRuleOne(correctSudoku));
 	}
 	
 	
