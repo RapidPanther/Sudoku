@@ -82,8 +82,10 @@ public class SudokuVerifier {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
 		int[] digit = new int[9];
 		
-		
-		
+		for(int i = 0; i < numbers.length; i++)
+		{
+			for(int j = 0; j < numbers[][].length; j++)
+		}
 		
 		
 		

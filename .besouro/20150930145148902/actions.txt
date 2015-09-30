@@ -358,3 +358,6 @@ RefactoringAction 1443620217290 TestSudokuVerifier.java ADD void testCheckRuleTw
 RefactoringAction 1443620217291 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue() METHOD
 RefactoringAction 1443620217292 TestSudokuVerifier.java ADD void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
 EditAction 1443620217683 TestSudokuVerifier.java 2315 8 24 11
+UnitTestCaseAction 1443620230789 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620230789 TestSudokuVerifier FAIL
+EditAction 1443620753405 SudokuVerifier.java 2102 7 18 0
