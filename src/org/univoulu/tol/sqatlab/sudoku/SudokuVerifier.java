@@ -25,6 +25,10 @@ public class SudokuVerifier {
 			return -2;
 		}
 		
+		if(!checkRuleThree(candidateSolution)){
+			return -3;
+		}
+		
 		
 		
 		
@@ -132,10 +136,15 @@ public class SudokuVerifier {
 		
 		int[] digit = new int[9]; 
 		
-		int counter = 0;
+		
 		for(int i = 0; i < numbers.length; i++)
 		{
-			
+			digit[i%9] = numbers[i];
+			if(i%9 == 8){
+				if(!checkNineDigits(digit)){
+					return false;
+				}
+			}
 		}
 		
 		
