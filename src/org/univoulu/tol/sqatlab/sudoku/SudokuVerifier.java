@@ -124,6 +124,13 @@ public class SudokuVerifier {
 		
 		return true;
 	}
+
+
+
+	public boolean checkRuleThree(String correctSudoku) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }

@@ -396,3 +396,9 @@ RefactoringAction 1443621570224 TestSudokuVerifier.java REMOVE testCheckNineDigi
 RefactoringAction 1443621572737 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue() METHOD
 RefactoringAction 1443621572737 TestSudokuVerifier.java ADD void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
 EditAction 1443621573115 TestSudokuVerifier.java 2326 6 19 9
+RefactoringAction 1443621584763 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443621592278 TestSudokuVerifier.java RENAME testCheckRuleTwo_IncorrectSolutionReturnFalse()=>void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443621614331 TestSudokuVerifier.java RENAME testCheckRuleThree_IncorrectSolutionReturnFalse()=>void testCheckRuleThree_CorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443621618339 TestSudokuVerifier.java RENAME testCheckRuleThree_CorrectSolutionReturnFalse()=>void testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443621623160 SudokuVerifier.java ADD Object checkRuleThree(String) METHOD
+EditAction 1443621630606 SudokuVerifier.java 2366 8 20 0
