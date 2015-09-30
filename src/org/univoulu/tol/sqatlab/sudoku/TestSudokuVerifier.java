@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 	
-	stop hier
+	//stop hier
 	
 	
 	SudokuVerifier sudokuVerifier;
@@ -35,7 +35,7 @@ public class TestSudokuVerifier {
 		assertEquals(0, validity);
 	}
 	*/
-	
+	/*
 	
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
@@ -70,7 +70,7 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleTwo(correctSudoku));
 	}
-	
+	*/
 	/*
 	@Test
 	public void testCheckRuleTwo_IncorrectSolutionReturnFalse(){
@@ -78,7 +78,7 @@ public class TestSudokuVerifier {
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
 	*/
-	
+	/*
 	
 	@Test
 	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
@@ -91,7 +91,7 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleThree(failRuleThree));
 	}
-	
+	*/
 	@Test
 	public void testCheckRuleFour_IncorrectSolutionReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
