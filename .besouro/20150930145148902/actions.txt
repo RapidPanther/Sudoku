@@ -170,3 +170,8 @@ RefactoringAction 1443616879552 TestSudokuVerifier.java ADD void testVerify_Wron
 RefactoringAction 1443616879553 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
 EditAction 1443616880633 TestSudokuVerifier.java 1300 4 14 7
 EditAction 1443616894189 TestSudokuVerifier.java 1302 4 14 7
+UnitTestCaseAction 1443616897276 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616897277 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443616962832 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616962833 TestSudokuVerifier FAIL
+EditAction 1443617002577 SudokuVerifier.java 946 4 9 0
