@@ -157,3 +157,11 @@ EditAction 1443616758915 SudokuVerifier.java 943 4 9 0
 UnitTestCaseAction 1443616762995 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443616762995 TestSudokuVerifier FAIL
 EditAction 1443616815758 SudokuVerifier.java 945 4 7 0
+CompilationAction 1443616816187 SudokuVerifier.java
+CompilationAction 1443616842330 SudokuVerifier.java
+UnitTestCaseAction 1443616847538 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616847539 TestSudokuVerifier FAIL
+RefactoringAction 1443616870486 TestSudokuVerifier.java REMOVE testVerify_WrongString_ReturnsMinusOne() METHOD
+RefactoringAction 1443616870487 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443616873513 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
+EditAction 1443616874048 TestSudokuVerifier.java 1304 3 11 6
