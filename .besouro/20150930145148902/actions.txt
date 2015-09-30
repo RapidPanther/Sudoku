@@ -165,3 +165,7 @@ RefactoringAction 1443616870486 TestSudokuVerifier.java REMOVE testVerify_WrongS
 RefactoringAction 1443616870487 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue() METHOD
 RefactoringAction 1443616873513 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
 EditAction 1443616874048 TestSudokuVerifier.java 1304 3 11 6
+RefactoringAction 1443616877538 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443616879552 TestSudokuVerifier.java ADD void testVerify_WrongString_ReturnsMinusOne() METHOD
+RefactoringAction 1443616879553 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
+EditAction 1443616880633 TestSudokuVerifier.java 1300 4 14 7

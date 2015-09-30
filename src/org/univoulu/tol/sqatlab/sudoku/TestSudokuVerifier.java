@@ -28,14 +28,14 @@ public class TestSudokuVerifier {
 		assertEquals(0, validity);
 	}
 	
-	/*
+	
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
 		sudokuVerifier = new SudokuVerifier();
 		int validity = sudokuVerifier.verify(correctSudoku);
 		assertEquals(-1, validity);
 	}
-	*/
+	
 	
 	@Test
 	public void testCheckRuleOne_CorrectStringReturnTrue(){
