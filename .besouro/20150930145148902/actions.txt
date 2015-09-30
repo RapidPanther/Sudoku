@@ -239,3 +239,20 @@ RefactoringAction 1443617919216 SudokuVerifier.java ADD Object checkRuleTwo(Stri
 RefactoringAction 1443617947863 SudokuVerifier.java RENAME checkRuleTwo(String)=>boolean checkRuleTwo() METHOD
 RefactoringAction 1443617950870 SudokuVerifier.java RENAME checkRuleTwo()=>boolean checkRuleTwo(int METHOD
 EditAction 1443617976053 SudokuVerifier.java 1064 5 10 0
+CompilationAction 1443617976384 TestSudokuVerifier.java
+RefactoringAction 1443618111577 SudokuVerifier.java RENAME checkRuleTwo(int=>boolean checkRuleTwo(String) METHOD
+RefactoringAction 1443618113086 SudokuVerifier.java RENAME checkRuleTwo(String)=>boolean checkRuleTwo() METHOD
+RefactoringAction 1443618117595 SudokuVerifier.java RENAME checkRuleTwo()=>boolean checkRuleTwo(String) METHOD
+CompilationAction 1443618135771 SudokuVerifier.java
+CompilationAction 1443618135771 SudokuVerifier.java
+CompilationAction 1443618229660 SudokuVerifier.java
+CompilationAction 1443618229660 SudokuVerifier.java
+UnitTestCaseAction 1443618230152 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618230153 TestSudokuVerifier OK
+RefactoringAction 1443618238886 TestSudokuVerifier.java ADD void testCheckRuleTwo_CorrectStringReturnTrue()/2 METHOD
+RefactoringAction 1443618250911 TestSudokuVerifier.java RENAME testCheckRuleTwo_CorrectStringReturnTrue()/2=>void testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443618255920 TestSudokuVerifier.java RENAME testCheckRuleTwo_CorrectStringReturnTrue()=>void testCheckRuleTwo_InorrectStringReturnTrue() METHOD
+RefactoringAction 1443618256925 TestSudokuVerifier.java RENAME testCheckRuleTwo_InorrectStringReturnTrue()=>void testCheckRuleTwo_InCorrectStringReturnTrue() METHOD
+RefactoringAction 1443618261934 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectStringReturnTrue()=>void testCheckRuleTwo_InCorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443618265441 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectSolutionReturnTrue()=>void testCheckRuleTwo_InCorrectSolutionReturnFalse() METHOD
+EditAction 1443618274824 TestSudokuVerifier.java 1770 6 18 9

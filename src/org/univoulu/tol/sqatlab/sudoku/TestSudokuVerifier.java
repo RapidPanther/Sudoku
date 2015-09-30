@@ -45,9 +45,15 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testCheckRuleTwo_CorrectStringReturnTrue(){
+	public void testCheckRuleTwo_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleTwo(correctSudoku));
+	}
+	
+	@Test
+	public void testCheckRuleTwo_InCorrectSolutionReturnFalse(){
+		sudokuVerifier = new SudokuVerifier();
+		assertEquals(true, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
 
 }

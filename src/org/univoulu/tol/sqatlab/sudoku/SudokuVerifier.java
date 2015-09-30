@@ -19,8 +19,10 @@ public class SudokuVerifier {
 			return  -1;
 		}
 		
+		if(!checkRuleTwo(candidateSolution)){
+			return -2;
+		}
 		
-		//check rule two
 		
 		
 		
@@ -54,8 +56,8 @@ public class SudokuVerifier {
 
 
 
-	public boolean checkRuleTwo(int[] numbers) {
-		// TODO Auto-generated method stub
+	public boolean checkRuleTwo(String string) {
+		int numbers[] = changeStringToIntArray(string);
 		return true;
 	}
 	
