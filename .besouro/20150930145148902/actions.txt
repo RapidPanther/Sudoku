@@ -293,3 +293,7 @@ EditAction 1443618785197 TestSudokuVerifier.java 2089 7 21 10
 CompilationAction 1443618785496 TestSudokuVerifier.java
 RefactoringAction 1443618794444 SudokuVerifier.java ADD Object checkNineDigits(int METHOD
 EditAction 1443618803591 SudokuVerifier.java 1740 7 19 0
+CompilationAction 1443618803899 TestSudokuVerifier.java
+RefactoringAction 1443618854268 SudokuVerifier.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1443619178462 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+EditAction 1443619185390 TestSudokuVerifier.java 2093 7 21 10
