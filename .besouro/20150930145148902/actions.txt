@@ -47,3 +47,7 @@ RefactoringAction 1443615065656 TestSudokuVerifier.java RENAME testVerify_Correc
 RefactoringAction 1443615069178 TestSudokuVerifier.java RENAME testVerify_CorrectString_ReturnsZero=>void testVerify_CorrectString_ReturnsZero() METHOD
 EditAction 1443615180118 SudokuVerifier.java 603 2 5 0
 EditAction 1443615190683 TestSudokuVerifier.java 685 2 7 5
+UnitTestCaseAction 1443615191224 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443615191225 TestSudokuVerifier OK
+RefactoringAction 1443615217403 TestSudokuVerifier.java ADD String wrongSudoku FIELD
+EditAction 1443615239239 TestSudokuVerifier.java 795 2 7 5
