@@ -1,0 +1,6 @@
+FileOpenedAction 1443613909907 TestSudokuVerifier.java 284 2 1 0
+RefactoringAction 1443614003601 TestSudokuVerifier.java ADD int METHOD
+RefactoringAction 1443614015311 TestSudokuVerifier.java REMOVE changeStringToIntArray(String) METHOD
+RefactoringAction 1443614031511 TestSudokuVerifier.java ADD int METHOD
+RefactoringAction 1443614038460 TestSudokuVerifier.java REMOVE changeStringToIntArray(String) METHOD
+EditAction 1443614041883 TestSudokuVerifier.java 577 2 6 4
