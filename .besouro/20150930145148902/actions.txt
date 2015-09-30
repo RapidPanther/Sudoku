@@ -453,3 +453,14 @@ RefactoringAction 1443622534169 TestSudokuVerifier.java ADD void testCheckRuleFo
 RefactoringAction 1443622539678 TestSudokuVerifier.java RENAME testCheckRuleFour_IncorrectSolutionReturnFalse()/2=>void testCheckRuleFour_CorrectSolutionReturnFalse() METHOD
 RefactoringAction 1443622544186 TestSudokuVerifier.java RENAME testCheckRuleFour_CorrectSolutionReturnFalse()=>void testCheckRuleFour_CorrectSolutionReturnTrue() METHOD
 EditAction 1443622582396 TestSudokuVerifier.java 3409 11 30 14
+CompilationAction 1443622582579 TestSudokuVerifier.java
+CompilationAction 1443622582579 TestSudokuVerifier.java
+RefactoringAction 1443622596285 TestSudokuVerifier.java ADD String correctSudoku/2 FIELD
+RefactoringAction 1443622601326 TestSudokuVerifier.java RENAME correctSudoku/2=>String fail FIELD
+RefactoringAction 1443622602832 TestSudokuVerifier.java RENAME fail=>String failRule FIELD
+RefactoringAction 1443622604338 TestSudokuVerifier.java RENAME failRule=>String failRuleFour FIELD
+CompilationAction 1443622618452 TestSudokuVerifier.java
+CompilationAction 1443622618453 TestSudokuVerifier.java
+CompilationAction 1443622618612 TestSudokuVerifier.java
+RefactoringAction 1443622644137 SudokuVerifier.java ADD Object checkRuleFour(String) METHOD
+EditAction 1443622656399 SudokuVerifier.java 2788 9 25 0

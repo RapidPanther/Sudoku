@@ -150,6 +150,13 @@ public class SudokuVerifier {
 		
 		return true;
 	}
+
+
+
+	public boolean checkRuleFour(String failRuleFour) {
+		// TODO Auto-generated method stub
+		return true;
+	}
 	
 	
 }
