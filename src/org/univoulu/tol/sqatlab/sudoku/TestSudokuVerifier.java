@@ -40,7 +40,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testCheckRuleOne_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
-		assertEquals(true, sudokuVerifier.checkRuleOne("correctSudoku"));
+		assertEquals(true, sudokuVerifier.checkRuleOne(correctSudoku));
 	}
 	
 	
