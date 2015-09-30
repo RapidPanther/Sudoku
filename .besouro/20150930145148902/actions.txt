@@ -302,3 +302,9 @@ UnitTestSessionAction 1443619192634 TestSudokuVerifier FAIL
 UnitTestCaseAction 1443619209114 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443619209114 TestSudokuVerifier FAIL
 EditAction 1443619231911 TestSudokuVerifier.java 2093 7 21 10
+UnitTestCaseAction 1443619234970 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619234971 TestSudokuVerifier FAIL
+RefactoringAction 1443619252178 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue()/2 METHOD
+RefactoringAction 1443619261700 TestSudokuVerifier.java RENAME testCheckNineDigits_OneToNineReturnTrue()/2=>void testCheckNineDigits_NotOneToNineReturnTrue() METHOD
+RefactoringAction 1443619265211 TestSudokuVerifier.java RENAME testCheckNineDigits_NotOneToNineReturnTrue()=>void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
+EditAction 1443619266221 TestSudokuVerifier.java 2310 8 24 11
