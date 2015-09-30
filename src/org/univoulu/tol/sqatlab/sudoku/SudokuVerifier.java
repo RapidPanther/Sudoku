@@ -31,7 +31,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean checkRuleOne(String input) {
-		if(input.matches(""))
+		if(input.matches("\d"))
 		{
 			return true;
 		}
