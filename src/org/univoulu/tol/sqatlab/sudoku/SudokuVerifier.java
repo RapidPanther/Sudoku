@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	private int[] changeStringToIntArray(String sudokuSolution) {
+	public static int[] changeStringToIntArray(String sudokuSolution) {
 		int numbers[] = new int[81];
 		numbers[0] = 4;
 		return numbers;
