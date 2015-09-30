@@ -402,3 +402,5 @@ RefactoringAction 1443621614331 TestSudokuVerifier.java RENAME testCheckRuleThre
 RefactoringAction 1443621618339 TestSudokuVerifier.java RENAME testCheckRuleThree_CorrectSolutionReturnFalse()=>void testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
 RefactoringAction 1443621623160 SudokuVerifier.java ADD Object checkRuleThree(String) METHOD
 EditAction 1443621630606 SudokuVerifier.java 2366 8 20 0
+CompilationAction 1443621630927 SudokuVerifier.java
+CompilationAction 1443621636742 SudokuVerifier.java

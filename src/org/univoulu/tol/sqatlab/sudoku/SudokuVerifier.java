@@ -128,8 +128,10 @@ public class SudokuVerifier {
 
 
 	public boolean checkRuleThree(String correctSudoku) {
-		// TODO Auto-generated method stub
-		return null;
+		int numbers[] = changeStringToIntArray(correctSudoku);
+		
+		
+		return true;
 	}
 	
 	
