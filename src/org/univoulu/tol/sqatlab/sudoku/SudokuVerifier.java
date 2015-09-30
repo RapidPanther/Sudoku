@@ -3,9 +3,17 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 
 	public static int verify(String candidateSolution) {
+		int numbers[] = changeStringToIntArray(candidateSolution);
+		
+		
 		//check if String is correct
 		
 		//check rule one
+		if(checkRuleOne(numbers)){
+			return  -1;
+		}
+		
+		//check rule two
 		
 		
 		
@@ -15,6 +23,11 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public static boolean checkRuleOne(int[] numbers) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 	public static int[] changeStringToIntArray(String sudokuSolution) {
 		char numbersChar[] = sudokuSolution.toCharArray(); 
 		
