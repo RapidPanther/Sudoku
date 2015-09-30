@@ -7,5 +7,10 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	private int[] changeStringToIntArray(String sudokuSolution) {
+		int numbers[] = new int[81];
+		return null;
+	}
+	
 	
 }
