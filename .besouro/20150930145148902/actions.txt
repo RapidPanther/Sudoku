@@ -73,3 +73,22 @@ RefactoringAction 1443616026847 TestSudokuVerifier.java RENAME testCheckRuleOne=
 RefactoringAction 1443616029371 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectString=>void testCheckRuleOne_CorrectStringReturn FIELD
 RefactoringAction 1443616030890 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectStringReturn=>void testCheckRuleOne_CorrectStringReturnTrue FIELD
 EditAction 1443616039128 TestSudokuVerifier.java 1111 3 9 6
+CompilationAction 1443616039302 TestSudokuVerifier.java
+CompilationAction 1443616039303 TestSudokuVerifier.java
+CompilationAction 1443616039303 TestSudokuVerifier.java
+RefactoringAction 1443616218055 SudokuVerifier.java ADD SudokuVerifier() METHOD
+RefactoringAction 1443616228092 SudokuVerifier.java RENAME SudokuVerifier()=>SudokuVerifier(String) METHOD
+CompilationAction 1443616242638 SudokuVerifier.java
+CompilationAction 1443616242639 TestSudokuVerifier.java
+CompilationAction 1443616242640 TestSudokuVerifier.java
+CompilationAction 1443616242640 TestSudokuVerifier.java
+RefactoringAction 1443616250189 SudokuVerifier.java REMOVE changeStringToIntArray(String) METHOD
+RefactoringAction 1443616250191 SudokuVerifier.java REMOVE checkRuleOne(String) METHOD
+RefactoringAction 1443616252210 SudokuVerifier.java ADD static boolean checkRuleOne(String) METHOD
+RefactoringAction 1443616252212 SudokuVerifier.java ADD static int METHOD
+CompilationAction 1443616252540 SudokuVerifier.java
+CompilationAction 1443616261876 TestSudokuVerifier.java
+CompilationAction 1443616261878 TestSudokuVerifier.java
+CompilationAction 1443616261878 TestSudokuVerifier.java
+CompilationAction 1443616261879 TestSudokuVerifier.java
+EditAction 1443616268376 SudokuVerifier.java 965 4 8 0
