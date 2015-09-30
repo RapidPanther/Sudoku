@@ -234,3 +234,8 @@ RefactoringAction 1443617577163 TestSudokuVerifier.java RENAME testCheckRuleOne_
 RefactoringAction 1443617578675 TestSudokuVerifier.java RENAME testCheckRuleO_CorrectStringReturnTrue()=>void testCheckRuleTW_CorrectStringReturnTrue() METHOD
 RefactoringAction 1443617579686 TestSudokuVerifier.java RENAME testCheckRuleTW_CorrectStringReturnTrue()=>void testCheckRuleTwo_CorrectStringReturnTrue() METHOD
 EditAction 1443617717356 TestSudokuVerifier.java 1583 5 16 8
+CompilationAction 1443617717663 TestSudokuVerifier.java
+RefactoringAction 1443617919216 SudokuVerifier.java ADD Object checkRuleTwo(String) METHOD
+RefactoringAction 1443617947863 SudokuVerifier.java RENAME checkRuleTwo(String)=>boolean checkRuleTwo() METHOD
+RefactoringAction 1443617950870 SudokuVerifier.java RENAME checkRuleTwo()=>boolean checkRuleTwo(int METHOD
+EditAction 1443617976053 SudokuVerifier.java 1064 5 10 0

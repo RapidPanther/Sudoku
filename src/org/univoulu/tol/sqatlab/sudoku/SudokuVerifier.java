@@ -51,6 +51,13 @@ public class SudokuVerifier {
 		
 		return numbers;
 	}
+
+
+
+	public boolean checkRuleTwo(int[] numbers) {
+		// TODO Auto-generated method stub
+		return true;
+	}
 	
 	
 }
