@@ -165,7 +165,7 @@ public class SudokuVerifier {
 			int[] digit = new int[9];
 			for(int j = 0; j <9; j++)
 			{
-				//digit[j] = numbers[i][j];
+				digit[j] = numbers[i][j];
 				System.out.print(digit[j]);
 			}
 			if(!checkNineDigits(digit)){
