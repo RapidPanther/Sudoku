@@ -64,7 +64,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
-		assertEquals(false, sudokuVerifier.checkRuleThree(correctSudoku));
+		assertEquals(true, sudokuVerifier.checkRuleThree(correctSudoku));
 	}
 	
 	
