@@ -156,7 +156,8 @@ public class SudokuVerifier {
 	}
 
 
-
+	//this check doesn't work
+	//or probably wrong number
 	public boolean checkRuleFour(String test) {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(test);
 		

@@ -546,3 +546,4 @@ RefactoringAction 1443623766394 TestSudokuVerifier.java ADD void testCheckRuleTh
 RefactoringAction 1443623766395 TestSudokuVerifier.java ADD void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
 RefactoringAction 1443623767419 TestSudokuVerifier.java REMOVE hier FIELD
 EditAction 1443623768909 TestSudokuVerifier.java 3834 12 33 15
+EditAction 1443623790986 SudokuVerifier.java 3180 9 28 0
