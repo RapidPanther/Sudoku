@@ -404,3 +404,4 @@ RefactoringAction 1443621623160 SudokuVerifier.java ADD Object checkRuleThree(St
 EditAction 1443621630606 SudokuVerifier.java 2366 8 20 0
 CompilationAction 1443621630927 SudokuVerifier.java
 CompilationAction 1443621636742 SudokuVerifier.java
+EditAction 1443621845176 SudokuVerifier.java 2510 8 24 0

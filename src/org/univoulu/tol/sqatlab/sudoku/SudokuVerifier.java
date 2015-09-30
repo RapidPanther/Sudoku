@@ -130,6 +130,14 @@ public class SudokuVerifier {
 	public boolean checkRuleThree(String correctSudoku) {
 		int numbers[] = changeStringToIntArray(correctSudoku);
 		
+		int[] digit = new int[9]; 
+		
+		int counter = 0;
+		for(int i = 0; i < numbers.length; i++)
+		{
+			
+		}
+		
 		
 		return true;
 	}
