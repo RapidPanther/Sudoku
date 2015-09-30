@@ -155,7 +155,7 @@ public class SudokuVerifier {
 		return true;
 	}
 
-
+	// to do
 	//this check doesn't work
 	//or probably wrong number
 	public boolean checkRuleFour(String test) {
