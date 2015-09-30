@@ -8,3 +8,5 @@ CompilationAction 1443614042587 TestSudokuVerifier.java
 RefactoringAction 1443614047359 SudokuVerifier.java ADD int METHOD
 EditAction 1443614108144 SudokuVerifier.java 323 2 3 0
 EditAction 1443614124961 TestSudokuVerifier.java 583 2 3 1
+CompilationAction 1443614125522 TestSudokuVerifier.java
+EditAction 1443614211283 SudokuVerifier.java 345 2 4 0

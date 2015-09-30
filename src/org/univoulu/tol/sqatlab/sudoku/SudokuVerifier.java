@@ -9,7 +9,8 @@ public class SudokuVerifier {
 	
 	private int[] changeStringToIntArray(String sudokuSolution) {
 		int numbers[] = new int[81];
-		return null;
+		numbers[0] = 4;
+		return numbers;
 	}
 	
 	
