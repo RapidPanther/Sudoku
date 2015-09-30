@@ -97,6 +97,13 @@ public class SudokuVerifier {
 		
 		for (int i: correctValues)
 		{
+			boolean x = true;
+			for(int j = 0; j < test.length; j++)
+			{
+				
+			}
+			
+			
 			if(!(Arrays.asList(test).contains(i))){
 				System.out.println(i);
 				return false;
