@@ -60,3 +60,6 @@ RefactoringAction 1443615284904 TestSudokuVerifier.java RENAME testVerify_WrongS
 RefactoringAction 1443615288960 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsNotMinus1()=>void testVerify_WrongString_ReturnsNot() METHOD
 RefactoringAction 1443615293490 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsNot()=>void testVerify_WrongString_ReturnsMinusOne() METHOD
 EditAction 1443615293886 TestSudokuVerifier.java 953 3 9 6
+UnitTestCaseAction 1443615297788 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443615297788 TestSudokuVerifier.testVerify_WrongString_ReturnsMinusOne FAIL
+EditAction 1443615323924 SudokuVerifier.java 631 2 5 0

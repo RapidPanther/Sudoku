@@ -5,6 +5,9 @@ public class SudokuVerifier {
 	public static int verify(String candidateSolution) {
 		//check if String is correct
 		
+		//check rule one
+		
+		
 		
 		
 		
