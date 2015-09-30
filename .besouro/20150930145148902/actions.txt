@@ -56,3 +56,7 @@ RefactoringAction 1443615260794 TestSudokuVerifier.java RENAME testVerify_Correc
 RefactoringAction 1443615267320 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsZero()=>void testVerify_WrongString_Returnsnot() METHOD
 RefactoringAction 1443615271842 TestSudokuVerifier.java RENAME testVerify_WrongString_Returnsnot()=>void testVerify_WrongString_ReturnsNotZero() METHOD
 EditAction 1443615280381 TestSudokuVerifier.java 952 3 9 6
+RefactoringAction 1443615284904 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsNotZero()=>void testVerify_WrongString_ReturnsNotMinus1() METHOD
+RefactoringAction 1443615288960 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsNotMinus1()=>void testVerify_WrongString_ReturnsNot() METHOD
+RefactoringAction 1443615293490 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsNot()=>void testVerify_WrongString_ReturnsMinusOne() METHOD
+EditAction 1443615293886 TestSudokuVerifier.java 953 3 9 6

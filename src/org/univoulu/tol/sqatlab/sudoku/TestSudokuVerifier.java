@@ -26,7 +26,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerify_WrongString_ReturnsNotZero(){
+	public void testVerify_WrongString_ReturnsMinusOne(){
 		int validity = SudokuVerifier.verify(correctSudoku);
 		assertEquals(-1, validity);
 	}
