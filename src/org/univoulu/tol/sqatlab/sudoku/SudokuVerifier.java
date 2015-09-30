@@ -31,7 +31,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean checkRuleOne(String input) {
-		if(input.matches("[0-9]*{81}"))
+		if(input.matches("[0-9]{81}"))
 		{
 			return true;
 		}
