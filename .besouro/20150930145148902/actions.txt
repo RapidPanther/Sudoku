@@ -256,3 +256,14 @@ RefactoringAction 1443618256925 TestSudokuVerifier.java RENAME testCheckRuleTwo_
 RefactoringAction 1443618261934 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectStringReturnTrue()=>void testCheckRuleTwo_InCorrectSolutionReturnTrue() METHOD
 RefactoringAction 1443618265441 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectSolutionReturnTrue()=>void testCheckRuleTwo_InCorrectSolutionReturnFalse() METHOD
 EditAction 1443618274824 TestSudokuVerifier.java 1770 6 18 9
+CompilationAction 1443618275126 TestSudokuVerifier.java
+RefactoringAction 1443618288001 TestSudokuVerifier.java ADD String failRuleOne/2 FIELD
+RefactoringAction 1443618291509 TestSudokuVerifier.java RENAME failRuleOne/2=>String failRuleT FIELD
+RefactoringAction 1443618293015 TestSudokuVerifier.java RENAME failRuleT=>String failRuleTwo FIELD
+RefactoringAction 1443618295022 TestSudokuVerifier.java RENAME failRuleTwo=>String failRuleTw FIELD
+RefactoringAction 1443618296529 TestSudokuVerifier.java RENAME failRuleTw=>String failRuleTwo FIELD
+CompilationAction 1443618300421 TestSudokuVerifier.java
+UnitTestCaseAction 1443618302743 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618302743 TestSudokuVerifier OK
+RefactoringAction 1443618317281 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectSolutionReturnFalse()=>void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443618321856 TestSudokuVerifier.java 1879 6 18 9
