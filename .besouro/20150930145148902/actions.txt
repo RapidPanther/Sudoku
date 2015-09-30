@@ -267,3 +267,26 @@ UnitTestCaseAction 1443618302743 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443618302743 TestSudokuVerifier OK
 RefactoringAction 1443618317281 TestSudokuVerifier.java RENAME testCheckRuleTwo_InCorrectSolutionReturnFalse()=>void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
 EditAction 1443618321856 TestSudokuVerifier.java 1879 6 18 9
+UnitTestCaseAction 1443618324410 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443618324411 TestSudokuVerifier FAIL
+RefactoringAction 1443618380367 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1443618387913 SudokuVerifier.java RENAME changeStringToIntArray(String)/2=>int METHOD
+RefactoringAction 1443618388919 SudokuVerifier.java RENAME changeStringToTIntArray(String)=>int METHOD
+RefactoringAction 1443618391931 SudokuVerifier.java RENAME changeStringToTwoIntArray(String)=>int METHOD
+CompilationAction 1443618546473 SudokuVerifier.java
+CompilationAction 1443618555320 SudokuVerifier.java
+CompilationAction 1443618555463 SudokuVerifier.java
+CompilationAction 1443618578191 SudokuVerifier.java
+CompilationAction 1443618578346 SudokuVerifier.java
+CompilationAction 1443618581323 SudokuVerifier.java
+UnitTestCaseAction 1443618585813 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443618585814 TestSudokuVerifier FAIL
+RefactoringAction 1443618678457 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse()/2 METHOD
+RefactoringAction 1443618684466 TestSudokuVerifier.java RENAME testCheckRuleTwo_IncorrectSolutionReturnFalse()/2=>void testCheck9_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443618686483 TestSudokuVerifier.java RENAME testCheck9_IncorrectSolutionReturnFalse()=>void testCheck9digits_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443618691493 TestSudokuVerifier.java RENAME testCheck9digits_IncorrectSolutionReturnFalse()=>void testCheck9digits_ReturnFalse() METHOD
+RefactoringAction 1443618701010 TestSudokuVerifier.java RENAME testCheck9digits_ReturnFalse()=>void testCheck9digits_OneToNineReturnFalse() METHOD
+RefactoringAction 1443618704519 TestSudokuVerifier.java RENAME testCheck9digits_OneToNineReturnFalse()=>void testCheck9digits_OneToNineReturnTrue() METHOD
+RefactoringAction 1443618728066 TestSudokuVerifier.java RENAME testCheck9digits_OneToNineReturnTrue()=>void testCheckNinedigits_OneToNineReturnTrue() METHOD
+RefactoringAction 1443618729073 TestSudokuVerifier.java RENAME testCheckNinedigits_OneToNineReturnTrue()=>void testCheckNineDigits_OneToNineReturnTrue() METHOD
+EditAction 1443618785197 TestSudokuVerifier.java 2089 7 21 10

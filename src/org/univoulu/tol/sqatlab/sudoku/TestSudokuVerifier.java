@@ -56,5 +56,12 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
-
+	
+	@Test
+	public void testCheckNineDigits_OneToNineReturnTrue(){
+		sudokuVerifier = new SudokuVerifier();
+		int[] test = {1,2,3,4,5,6,7,8,9};
+		assertEquals(false, sudokuVerifier.checkNineDigits());
+	}
+	
 }

@@ -53,11 +53,37 @@ public class SudokuVerifier {
 		
 		return numbers;
 	}
+	
+	public int[][] changeStringToTwoDimensionalIntArray(String sudokuSolution) {
+		char numbersChar[] = sudokuSolution.toCharArray(); 
+		
+		int numbers[][] = new int[9][9];
+		int counter = 0;
+		for(int i = 0; i < 9; i++)
+		{
+			for(int j = 0; j < 9; j++)
+			{
+				numbers[i][j] = Character.getNumericValue(numbersChar[counter]);
+				counter++;
+				System.out.print(numbers[i][j]);
+			}	
+			
+			
+		}
+		
+		return numbers;
+	}
 
 
 
 	public boolean checkRuleTwo(String string) {
-		int numbers[] = changeStringToIntArray(string);
+		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
+		
+		//for(int i = )
+		
+		
+		
+		
 		return true;
 	}
 	
