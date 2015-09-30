@@ -97,7 +97,7 @@ public class SudokuVerifier {
 		
 		for (int i: correctValues)
 		{
-			if(Arrays.asList(test).contains(i)){
+			if(!Arrays.asList(test).contains(i)){
 				return false;
 			}
 		}
