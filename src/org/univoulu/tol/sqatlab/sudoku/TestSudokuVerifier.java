@@ -17,5 +17,7 @@ public class TestSudokuVerifier {
 		assertEquals(numbers[2], 7);
 		assertEquals(numbers[80], 3);
 	}
+	
+	
 
 }
