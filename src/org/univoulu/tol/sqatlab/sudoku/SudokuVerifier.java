@@ -14,11 +14,11 @@ public class SudokuVerifier {
 		//check if String is correct
 		
 		//check rule one
-		/*
-		if(checkRuleOne(numbers)){
+		
+		if(checkRuleOne(candidateSolution)){
 			return  -1;
 		}
-		*/
+		
 		
 		//check rule two
 		
