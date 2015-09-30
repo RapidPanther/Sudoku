@@ -40,6 +40,13 @@ public class TestSudokuVerifier {
 		assertEquals(-1, validity);
 	}
 	
+	@Test
+	public void testVerify_WrongStringRuleThree_ReturnsMinusThree(){
+		sudokuVerifier = new SudokuVerifier();
+		int validity = sudokuVerifier.verify(failRuleOne);
+		assertEquals(-3, validity);
+	}
+	
 	
 	@Test
 	public void testCheckRuleOne_CorrectStringReturnTrue(){
