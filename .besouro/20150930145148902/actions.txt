@@ -183,3 +183,6 @@ UnitTestSessionAction 1443617034128 TestSudokuVerifier FAIL
 RefactoringAction 1443617045645 TestSudokuVerifier.java REMOVE testVerify_WrongString_ReturnsMinusOne() METHOD
 RefactoringAction 1443617045646 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue() METHOD
 EditAction 1443617048126 TestSudokuVerifier.java 1306 3 11 6
+UnitTestCaseAction 1443617051826 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617051827 TestSudokuVerifier FAIL
+EditAction 1443617184440 SudokuVerifier.java 949 4 9 0
