@@ -78,12 +78,20 @@ public class SudokuVerifier {
 
 	public boolean checkRuleTwo(String string) {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
-		
-		//for(int i = )
-		
+		int[] digit = new int[9];
 		
 		
 		
+		
+		
+		
+		return true;
+	}
+
+
+
+	public boolean checkNineDigits(int[] test) {
+		// TODO Auto-generated method stub
 		return true;
 	}
 	

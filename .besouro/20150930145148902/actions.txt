@@ -290,3 +290,6 @@ RefactoringAction 1443618704519 TestSudokuVerifier.java RENAME testCheck9digits_
 RefactoringAction 1443618728066 TestSudokuVerifier.java RENAME testCheck9digits_OneToNineReturnTrue()=>void testCheckNinedigits_OneToNineReturnTrue() METHOD
 RefactoringAction 1443618729073 TestSudokuVerifier.java RENAME testCheckNinedigits_OneToNineReturnTrue()=>void testCheckNineDigits_OneToNineReturnTrue() METHOD
 EditAction 1443618785197 TestSudokuVerifier.java 2089 7 21 10
+CompilationAction 1443618785496 TestSudokuVerifier.java
+RefactoringAction 1443618794444 SudokuVerifier.java ADD Object checkNineDigits(int METHOD
+EditAction 1443618803591 SudokuVerifier.java 1740 7 19 0
