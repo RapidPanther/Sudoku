@@ -29,6 +29,10 @@ public class SudokuVerifier {
 			return -3;
 		}
 		
+		if(!checkRuleThree(candidateSolution)){
+			return -4;
+		}
+		
 		
 		
 		
