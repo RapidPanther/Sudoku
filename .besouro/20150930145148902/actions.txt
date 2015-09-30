@@ -51,3 +51,8 @@ UnitTestCaseAction 1443615191224 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443615191225 TestSudokuVerifier OK
 RefactoringAction 1443615217403 TestSudokuVerifier.java ADD String wrongSudoku FIELD
 EditAction 1443615239239 TestSudokuVerifier.java 795 2 7 5
+RefactoringAction 1443615255273 TestSudokuVerifier.java ADD void testVerify_CorrectString_ReturnsZero()/2 METHOD
+RefactoringAction 1443615260794 TestSudokuVerifier.java RENAME testVerify_CorrectString_ReturnsZero()/2=>void testVerify_WrongString_ReturnsZero() METHOD
+RefactoringAction 1443615267320 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsZero()=>void testVerify_WrongString_Returnsnot() METHOD
+RefactoringAction 1443615271842 TestSudokuVerifier.java RENAME testVerify_WrongString_Returnsnot()=>void testVerify_WrongString_ReturnsNotZero() METHOD
+EditAction 1443615280381 TestSudokuVerifier.java 952 3 9 6
