@@ -29,7 +29,7 @@ public class SudokuVerifier {
 			return -3;
 		}
 		
-		if(!checkRuleThree(candidateSolution)){
+		if(!checkRuleFour(candidateSolution)){
 			return -4;
 		}
 		
