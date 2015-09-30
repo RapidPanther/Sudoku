@@ -31,6 +31,12 @@ public class TestSudokuVerifier {
 		assertEquals(-1, validity);
 	}
 	
+	@Test
+	public void testCheckRuleOne_CorrectStringReturnTrue{
+		int validity = SudokuVerifier.verify(correctSudoku);
+		assertEquals(-1, validity);
+	}
+	
 	
 
 }

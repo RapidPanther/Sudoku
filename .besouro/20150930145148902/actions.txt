@@ -65,3 +65,11 @@ UnitTestSessionAction 1443615297788 TestSudokuVerifier.testVerify_WrongString_Re
 EditAction 1443615323924 SudokuVerifier.java 631 2 5 0
 RefactoringAction 1443615722393 SudokuVerifier.java ADD static boolean checkRuleOne(int METHOD
 EditAction 1443615739472 SudokuVerifier.java 891 3 8 0
+RefactoringAction 1443615945200 SudokuVerifier.java RENAME checkRuleOne(int=>static boolean checkRuleOne(String) METHOD
+RefactoringAction 1443616004254 TestSudokuVerifier.java ADD void testVerify_WrongString_ReturnsMinusOne()/2 METHOD
+RefactoringAction 1443616016302 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsMinusOne()/2=>void testcheckRuleOne FIELD
+RefactoringAction 1443616019320 TestSudokuVerifier.java RENAME testcheckRuleOne=>void testCheckRuleOne FIELD
+RefactoringAction 1443616026847 TestSudokuVerifier.java RENAME testCheckRuleOne=>void testCheckRuleOne_CorrectString FIELD
+RefactoringAction 1443616029371 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectString=>void testCheckRuleOne_CorrectStringReturn FIELD
+RefactoringAction 1443616030890 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectStringReturn=>void testCheckRuleOne_CorrectStringReturnTrue FIELD
+EditAction 1443616039128 TestSudokuVerifier.java 1111 3 9 6
