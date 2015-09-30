@@ -67,6 +67,12 @@ public class TestSudokuVerifier {
 		assertEquals(true, sudokuVerifier.checkRuleThree(correctSudoku));
 	}
 	
+	@Test
+	public void testCheckRuleThree_IncorrectSolutionReturnFalse(){
+		sudokuVerifier = new SudokuVerifier();
+		assertEquals(true, sudokuVerifier.checkRuleThree(failRuleThree));
+	}
+	
 	
 	@Test
 	public void testCheckNineDigits_OneToNineReturnTrue(){

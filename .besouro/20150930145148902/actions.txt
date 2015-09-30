@@ -408,3 +408,11 @@ EditAction 1443621845176 SudokuVerifier.java 2510 8 24 0
 EditAction 1443622036146 SudokuVerifier.java 2670 8 24 0
 EditAction 1443622064511 TestSudokuVerifier.java 2521 7 21 10
 EditAction 1443622070616 TestSudokuVerifier.java 2520 7 21 10
+UnitTestCaseAction 1443622073219 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443622073220 TestSudokuVerifier OK
+RefactoringAction 1443622081544 TestSudokuVerifier.java ADD void testCheckRuleThree_CorrectSolutionReturnTrue()/2 METHOD
+RefactoringAction 1443622085570 TestSudokuVerifier.java RENAME testCheckRuleThree_CorrectSolutionReturnTrue()/2=>void testCheckRuleThree_orrectSolutionReturnTrue() METHOD
+RefactoringAction 1443622087076 TestSudokuVerifier.java RENAME testCheckRuleThree_orrectSolutionReturnTrue()=>void testCheckRuleThree_InorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443622088082 TestSudokuVerifier.java RENAME testCheckRuleThree_InorrectSolutionReturnTrue()=>void testCheckRuleThree_IncorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443622091635 TestSudokuVerifier.java RENAME testCheckRuleThree_IncorrectSolutionReturnTrue()=>void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443622100972 TestSudokuVerifier.java 2711 8 23 11
