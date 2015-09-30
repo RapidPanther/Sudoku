@@ -15,7 +15,7 @@ public class SudokuVerifier {
 		
 		//check rule one
 		
-		if(checkRuleOne(candidateSolution)){
+		if(!checkRuleOne(candidateSolution)){
 			return  -1;
 		}
 		
