@@ -471,3 +471,7 @@ UnitTestCaseAction 1443622994745 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443622994745 TestSudokuVerifier FAIL
 EditAction 1443622998432 SudokuVerifier.java 3000 9 27 0
 EditAction 1443623016862 SudokuVerifier.java 3067 9 28 0
+RefactoringAction 1443623038481 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleThree_ReturnsMinusThree()/2 METHOD
+RefactoringAction 1443623044990 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleThree_ReturnsMinusThree()/2=>void testVerify_WrongStringRuleFour_ReturnsMinusThree() METHOD
+RefactoringAction 1443623051512 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleFour_ReturnsMinusThree()=>void testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
+EditAction 1443623059321 TestSudokuVerifier.java 3725 12 33 15
