@@ -220,3 +220,9 @@ EditAction 1443617464634 TestSudokuVerifier.java 1302 4 14 7
 UnitTestCaseAction 1443617466939 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443617466939 TestSudokuVerifier FAIL
 EditAction 1443617486789 TestSudokuVerifier.java 1300 4 14 7
+UnitTestCaseAction 1443617489754 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617489755 TestSudokuVerifier FAIL
+RefactoringAction 1443617511063 TestSudokuVerifier.java ADD String failRuleOne FIELD
+RefactoringAction 1443617518573 TestSudokuVerifier.java REMOVE correctSudoku FIELD
+RefactoringAction 1443617519585 TestSudokuVerifier.java ADD String correctSudoku FIELD
+EditAction 1443617531190 TestSudokuVerifier.java 1409 4 14 7
