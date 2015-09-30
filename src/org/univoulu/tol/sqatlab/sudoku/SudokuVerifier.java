@@ -100,7 +100,7 @@ public class SudokuVerifier {
 			boolean isThere = false;
 			for(int j = 0; j < test.length; j++)
 			{
-				if(i == j)
+				if(i == test[j])
 				{
 					isThere = true;
 				}
