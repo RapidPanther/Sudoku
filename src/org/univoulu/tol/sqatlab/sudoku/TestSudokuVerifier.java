@@ -32,7 +32,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
 		sudokuVerifier = new SudokuVerifier();
-		int validity = sudokuVerifier.verify(correctSudoku);
+		int validity = sudokuVerifier.verify("a922222222222");
 		assertEquals(-1, validity);
 	}
 	
