@@ -447,3 +447,9 @@ UnitTestSessionAction 1443622347707 TestSudokuVerifier FAIL
 EditAction 1443622367099 TestSudokuVerifier.java 3034 9 26 12
 UnitTestCaseAction 1443622369558 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443622369559 TestSudokuVerifier OK
+RefactoringAction 1443622457763 TestSudokuVerifier.java ADD void testCheckRuleThree_IncorrectSolutionReturnFalse()/2 METHOD
+RefactoringAction 1443622461772 TestSudokuVerifier.java RENAME testCheckRuleThree_IncorrectSolutionReturnFalse()/2=>void testCheckRuleFour_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443622534169 TestSudokuVerifier.java ADD void testCheckRuleFour_IncorrectSolutionReturnFalse()/2 METHOD
+RefactoringAction 1443622539678 TestSudokuVerifier.java RENAME testCheckRuleFour_IncorrectSolutionReturnFalse()/2=>void testCheckRuleFour_CorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443622544186 TestSudokuVerifier.java RENAME testCheckRuleFour_CorrectSolutionReturnFalse()=>void testCheckRuleFour_CorrectSolutionReturnTrue() METHOD
+EditAction 1443622582396 TestSudokuVerifier.java 3409 11 30 14
