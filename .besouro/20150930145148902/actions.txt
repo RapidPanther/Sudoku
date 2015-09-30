@@ -227,3 +227,10 @@ RefactoringAction 1443617518573 TestSudokuVerifier.java REMOVE correctSudoku FIE
 RefactoringAction 1443617519585 TestSudokuVerifier.java ADD String correctSudoku FIELD
 EditAction 1443617531190 TestSudokuVerifier.java 1409 4 14 7
 EditAction 1443617549364 TestSudokuVerifier.java 1407 4 14 7
+UnitTestCaseAction 1443617556498 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617556499 TestSudokuVerifier OK
+RefactoringAction 1443617574156 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue()/2 METHOD
+RefactoringAction 1443617577163 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectStringReturnTrue()/2=>void testCheckRuleO_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443617578675 TestSudokuVerifier.java RENAME testCheckRuleO_CorrectStringReturnTrue()=>void testCheckRuleTW_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443617579686 TestSudokuVerifier.java RENAME testCheckRuleTW_CorrectStringReturnTrue()=>void testCheckRuleTwo_CorrectStringReturnTrue() METHOD
+EditAction 1443617717356 TestSudokuVerifier.java 1583 5 16 8
