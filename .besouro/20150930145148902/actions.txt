@@ -118,3 +118,14 @@ CompilationAction 1443616551427 TestSudokuVerifier.java
 CompilationAction 1443616551428 TestSudokuVerifier.java
 CompilationAction 1443616551429 TestSudokuVerifier.java
 EditAction 1443616555354 TestSudokuVerifier.java 1158 3 10 6
+CompilationAction 1443616555553 TestSudokuVerifier.java
+CompilationAction 1443616555554 TestSudokuVerifier.java
+CompilationAction 1443616555554 TestSudokuVerifier.java
+CompilationAction 1443616555554 TestSudokuVerifier.java
+RefactoringAction 1443616592834 SudokuVerifier.java RENAME SudokuVerifier(String)=>SudokuVerifier() METHOD
+CompilationAction 1443616593229 TestSudokuVerifier.java
+CompilationAction 1443616593230 TestSudokuVerifier.java
+CompilationAction 1443616593230 TestSudokuVerifier.java
+CompilationAction 1443616593230 TestSudokuVerifier.java
+CompilationAction 1443616593231 TestSudokuVerifier.java
+EditAction 1443616596939 TestSudokuVerifier.java 1154 3 10 6

@@ -1,7 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 public class SudokuVerifier {
-	public SudokuVerifier(String sudokuSolution){
+	public SudokuVerifier(){
 		
 	}
 	
