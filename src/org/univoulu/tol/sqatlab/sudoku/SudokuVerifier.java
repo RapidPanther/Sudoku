@@ -164,7 +164,7 @@ public class SudokuVerifier {
 				digit[j] = numbers[i][j];
 			}
 			if(!checkNineDigits(digit)){
-				//return false;
+				return false;
 			}
 		}
 		
