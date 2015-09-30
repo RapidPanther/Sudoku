@@ -297,3 +297,8 @@ CompilationAction 1443618803899 TestSudokuVerifier.java
 RefactoringAction 1443618854268 SudokuVerifier.java ADD import org.junit.Assert.assertEquals IMPORT
 RefactoringAction 1443619178462 SudokuVerifier.java ADD import java.util.Arrays IMPORT
 EditAction 1443619185390 TestSudokuVerifier.java 2093 7 21 10
+UnitTestCaseAction 1443619192633 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619192634 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443619209114 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619209114 TestSudokuVerifier FAIL
+EditAction 1443619231911 TestSudokuVerifier.java 2093 7 21 10

@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.Arrays;
+
 public class SudokuVerifier {
 	public SudokuVerifier(){
 		
@@ -65,7 +67,7 @@ public class SudokuVerifier {
 			{
 				numbers[i][j] = Character.getNumericValue(numbersChar[counter]);
 				counter++;
-				System.out.print(numbers[i][j]);
+				//System.out.print(numbers[i][j]);
 			}	
 			
 			
@@ -93,6 +95,12 @@ public class SudokuVerifier {
 	public boolean checkNineDigits(int[] test) {
 		int[] correctValues = {1,2,3,4,5,6,7,8,9};
 		
+		for (int i: correctValues)
+		{
+			if(Arrays.asList(test).contains(i)){
+				return false;
+			}
+		}
 		
 		return true;
 	}

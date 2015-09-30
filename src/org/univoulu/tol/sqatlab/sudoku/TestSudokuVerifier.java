@@ -60,7 +60,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testCheckNineDigits_OneToNineReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
-		int[] test = {1,2,3,4,5,6,7,8,9};
+		int[] test = {1,2,3,4,5,6,7,8,8};
 		assertEquals(false, sudokuVerifier.checkNineDigits(test));
 	}
 	
