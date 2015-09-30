@@ -43,7 +43,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerify_WrongStringRuleThree_ReturnsMinusThree(){
 		sudokuVerifier = new SudokuVerifier();
-		int validity = sudokuVerifier.verify(failRuleOne);
+		int validity = sudokuVerifier.verify(correctSudoku);
 		assertEquals(-3, validity);
 	}
 	
