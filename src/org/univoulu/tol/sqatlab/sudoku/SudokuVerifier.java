@@ -2,7 +2,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 public class SudokuVerifier {
 
-	public int verify(String candidateSolution) {
+	public static int verify(String candidateSolution) {
 		//check if String is correct
 		
 		

@@ -34,3 +34,15 @@ UnitTestCaseAction 1443614756587 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443614756589 TestSudokuVerifier OK
 EditAction 1443614762624 TestSudokuVerifier.java 530 1 5 4
 EditAction 1443614939748 SudokuVerifier.java 596 2 5 0
+RefactoringAction 1443615041447 TestSudokuVerifier.java ADD void testVerify FIELD
+RefactoringAction 1443615042963 TestSudokuVerifier.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1443615047480 TestSudokuVerifier.java RENAME testVerify_=>void testVerify FIELD
+RefactoringAction 1443615048539 TestSudokuVerifier.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1443615050562 TestSudokuVerifier.java RENAME testVerify_=>void testVerify_Corre FIELD
+RefactoringAction 1443615054079 TestSudokuVerifier.java RENAME testVerify_Corre=>void testVerify_CorrectString FIELD
+RefactoringAction 1443615055597 TestSudokuVerifier.java RENAME testVerify_CorrectString=>void testVerify_CorrectString_ FIELD
+RefactoringAction 1443615056614 TestSudokuVerifier.java RENAME testVerify_CorrectString_=>void testVerify_CorrectString_R FIELD
+RefactoringAction 1443615058135 TestSudokuVerifier.java RENAME testVerify_CorrectString_R=>void testVerify_CorrectString_Returns FIELD
+RefactoringAction 1443615065656 TestSudokuVerifier.java RENAME testVerify_CorrectString_Returns=>void testVerify_CorrectString_ReturnsZero FIELD
+RefactoringAction 1443615069178 TestSudokuVerifier.java RENAME testVerify_CorrectString_ReturnsZero=>void testVerify_CorrectString_ReturnsZero() METHOD
+EditAction 1443615180118 SudokuVerifier.java 603 2 5 0
