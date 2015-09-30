@@ -79,6 +79,7 @@ public class SudokuVerifier {
 
 
 	public boolean checkRuleTwo(String string) {
+		/*
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
 		int[] digit = new int[9];
 		
@@ -96,7 +97,7 @@ public class SudokuVerifier {
 			return false;
 		}
 		
-		
+		*/
 		
 		return true;
 	}
