@@ -82,9 +82,17 @@ public class SudokuVerifier {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
 		int[] digit = new int[9];
 		
-		for(int i = 0; i < numbers.length; i++)
+		int counter = 0;
+		for(int i = 0; i < 3; i++)
 		{
-			for(int j = 0; j < numbers[][].length; j++)
+			for(int j = 0; j < 3; j++){
+				digit[counter] = numbers[i][j];  
+			}
+		}
+		
+		if(!checkNineDigits(digit))
+		{
+			return false;
 		}
 		
 		
