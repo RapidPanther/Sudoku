@@ -38,7 +38,7 @@ public class SudokuVerifier {
 		return false;
 	}
 
-	public static int[] changeStringToIntArray(String sudokuSolution) {
+	public int[] changeStringToIntArray(String sudokuSolution) {
 		char numbersChar[] = sudokuSolution.toCharArray(); 
 		
 		int numbers[] = new int[81];

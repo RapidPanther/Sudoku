@@ -92,3 +92,8 @@ CompilationAction 1443616261878 TestSudokuVerifier.java
 CompilationAction 1443616261878 TestSudokuVerifier.java
 CompilationAction 1443616261879 TestSudokuVerifier.java
 EditAction 1443616268376 SudokuVerifier.java 965 4 8 0
+CompilationAction 1443616268685 TestSudokuVerifier.java
+CompilationAction 1443616268686 TestSudokuVerifier.java
+CompilationAction 1443616268686 TestSudokuVerifier.java
+CompilationAction 1443616268687 TestSudokuVerifier.java
+EditAction 1443616273955 SudokuVerifier.java 958 4 8 0
