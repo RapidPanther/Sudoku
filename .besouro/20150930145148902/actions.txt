@@ -534,3 +534,15 @@ RefactoringAction 1443623747254 TestSudokuVerifier.java REMOVE testVerify_WrongS
 RefactoringAction 1443623747255 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
 RefactoringAction 1443623747259 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue() METHOD
 EditAction 1443623749392 TestSudokuVerifier.java 3862 5 16 8
+UnitTestCaseAction 1443623752850 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443623752851 TestSudokuVerifier FAIL
+RefactoringAction 1443623763364 TestSudokuVerifier.java ADD void testVerify_WrongString_ReturnsMinusOne() METHOD
+RefactoringAction 1443623763367 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleThree_ReturnsMinusThree() METHOD
+RefactoringAction 1443623763367 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
+RefactoringAction 1443623763368 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443623763370 TestSudokuVerifier.java ADD void testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443623766392 TestSudokuVerifier.java ADD stop hier FIELD
+RefactoringAction 1443623766394 TestSudokuVerifier.java ADD void testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443623766395 TestSudokuVerifier.java ADD void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443623767419 TestSudokuVerifier.java REMOVE hier FIELD
+EditAction 1443623768909 TestSudokuVerifier.java 3834 12 33 15
