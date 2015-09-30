@@ -8,8 +8,21 @@ public class SudokuVerifier {
 	}
 	
 	public static int[] changeStringToIntArray(String sudokuSolution) {
+		char numbersChar[] = sudokuSolution.toCharArray(); 
+		
 		int numbers[] = new int[81];
+		
+		for(int i = 0; i < numbers.length; i++)
+		{
+			numbers[i] = Character.getNumericValue(numbersChar[i]);
+			
+		}
+		
+		
+		
 		numbers[0] = 4;
+		
+		
 		return numbers;
 	}
 	
