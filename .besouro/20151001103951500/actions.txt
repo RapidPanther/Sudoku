@@ -16,3 +16,8 @@ RefactoringAction 1443685481631 TestSudokuVerifier.java ADD void testCheckRuleTh
 RefactoringAction 1443685481632 TestSudokuVerifier.java ADD stop here FIELD
 RefactoringAction 1443685482662 TestSudokuVerifier.java REMOVE here FIELD
 EditAction 1443685487754 TestSudokuVerifier.java 3834 12 33 15
+UnitTestCaseAction 1443685491159 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443685491160 TestSudokuVerifier OK
+UnitTestCaseAction 1443685502465 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443685502466 TestSudokuVerifier OK
+EditAction 1443685516495 SudokuVerifier.java 3193 9 28 0
