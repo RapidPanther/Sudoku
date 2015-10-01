@@ -1,2 +1,18 @@
 FileOpenedAction 1443685191856 SudokuVerifier.java 3189 9 28 0
 EditAction 1443685275137 SudokuVerifier.java 3189 9 28 0
+UnitTestCaseAction 1443685464234 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443685464241 TestSudokuVerifier OK
+RefactoringAction 1443685472345 TestSudokuVerifier.java ADD void testCheckRuleFour_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443685475421 TestSudokuVerifier.java ADD void testChangeStringToIntArray() METHOD
+RefactoringAction 1443685475427 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue() METHOD
+RefactoringAction 1443685475428 TestSudokuVerifier.java ADD void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
+RefactoringAction 1443685479551 TestSudokuVerifier.java ADD void testVerify_WrongString_ReturnsMinusOne() METHOD
+RefactoringAction 1443685479554 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleThree_ReturnsMinusThree() METHOD
+RefactoringAction 1443685479556 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
+RefactoringAction 1443685479557 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443685479558 TestSudokuVerifier.java ADD void testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443685481630 TestSudokuVerifier.java ADD void testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443685481631 TestSudokuVerifier.java ADD void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443685481632 TestSudokuVerifier.java ADD stop here FIELD
+RefactoringAction 1443685482662 TestSudokuVerifier.java REMOVE here FIELD
+EditAction 1443685487754 TestSudokuVerifier.java 3834 12 33 15

@@ -14,7 +14,6 @@ public class TestSudokuVerifier {
 	String failRuleThree = "427369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	String failRuleFour =  "123456789123456789958724316825437169791586432346912758289643571573291684164875293";
 	//                      417369825 632158947 958724316825437169791586432346912758289643571573291684164875293
-	/*
 	@Test
 	public void testChangeStringToIntArray() {
 		sudokuVerifier = new SudokuVerifier();
@@ -33,7 +32,7 @@ public class TestSudokuVerifier {
 		assertEquals(0, validity);
 	}
 	*/
-	/*
+	
 	
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
@@ -68,7 +67,7 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleTwo(correctSudoku));
 	}
-	*/
+	
 	/*
 	@Test
 	public void testCheckRuleTwo_IncorrectSolutionReturnFalse(){
@@ -76,7 +75,7 @@ public class TestSudokuVerifier {
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
 	*/
-	/*
+	
 	
 	@Test
 	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
@@ -89,21 +88,20 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleThree(failRuleThree));
 	}
-	stop here
-	*/
+	
 	@Test
 	public void testCheckRuleFour_IncorrectSolutionReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleFour(failRuleFour));
 	}
-	/*
+	
 	@Test
 	public void testCheckRuleFour_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleFour(correctSudoku));
 	}
-	*/
-	/*
+	
+	
 	@Test
 	public void testCheckNineDigits_OneToNineReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
@@ -117,5 +115,5 @@ public class TestSudokuVerifier {
 		int[] test = {1,2,3,4,5,6,7,8,8};
 		assertEquals(false, sudokuVerifier.checkNineDigits(test));
 	}
-	*/
+	
 }
