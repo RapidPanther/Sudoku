@@ -99,7 +99,7 @@ public class SudokuVerifier {
 			for(int j = 0; j < 3; j++){
 				digit[counter] = numbers[i][j];
 				System.out.println(digit[counter] + " " + counter);
-				counter++;
+				//counter++;
 			}
 		}
 		
