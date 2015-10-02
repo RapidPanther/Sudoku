@@ -99,7 +99,7 @@ public class SudokuVerifier {
 		int xValue = 0;
 		int yValue = 0;
 		
-		while((digitCounterX < 2) && (digitCounterY < 2))
+		while(digitCounterX < 2 && digitCounterY < 2)
 		{		
 			counter = 0;
 			for(int i = 0; i < 3; i++)
