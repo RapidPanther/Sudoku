@@ -76,7 +76,7 @@ public class TestSudokuVerifier {
 	}
 	*/
 	
-	/*
+	/* new testString needed
 	@Test
 	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();

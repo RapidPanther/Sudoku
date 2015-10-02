@@ -48,3 +48,4 @@ RefactoringAction 1443810390915 TestSudokuVerifier.java REMOVE testCheckRuleFour
 RefactoringAction 1443810400535 TestSudokuVerifier.java REMOVE testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
 RefactoringAction 1443810411718 TestSudokuVerifier.java REMOVE testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
 EditAction 1443810416131 TestSudokuVerifier.java 3938 8 25 11
+EditAction 1443810419326 TestSudokuVerifier.java 3960 8 25 11
