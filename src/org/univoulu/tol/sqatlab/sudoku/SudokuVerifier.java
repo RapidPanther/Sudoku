@@ -78,6 +78,7 @@ public class SudokuVerifier {
 		return true;
 	}
 	
+	//R1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
 	public boolean checkRuleOne(String input) {
 		if(input.matches("[0-9]{81}"))
 		{
