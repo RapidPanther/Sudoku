@@ -113,6 +113,10 @@ public class SudokuVerifier {
 							counter++;
 				}
 			}
+			if(true)
+			{
+				
+			}
 		}
 		
 		
