@@ -104,3 +104,8 @@ RefactoringAction 1443810960754 TestSudokuVerifier.java REMOVE testCheckRuleTwo_
 RefactoringAction 1443810962770 TestSudokuVerifier.java ADD void testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
 RefactoringAction 1443810962771 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
 EditAction 1443810965647 TestSudokuVerifier.java 3992 7 21 10
+RefactoringAction 1443810979260 SudokuVerifier.java REMOVE checkRuleThree(String) METHOD
+RefactoringAction 1443810979262 SudokuVerifier.java REMOVE checkRuleFour(String) METHOD
+RefactoringAction 1443810982796 SudokuVerifier.java ADD boolean checkRuleThree(String) METHOD
+RefactoringAction 1443810982798 SudokuVerifier.java ADD boolean checkRuleFour(String) METHOD
+EditAction 1443810983398 SudokuVerifier.java 3256 9 32 0
