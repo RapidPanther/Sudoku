@@ -41,14 +41,6 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
-	
-	public boolean checkRuleOne(String input) {
-		if(input.matches("[0-9]{81}"))
-		{
-			return true;
-		}
-		return false;
-	}
 
 	public int[] changeStringToIntArray(String sudokuSolution) {
 		char numbersChar[] = sudokuSolution.toCharArray(); 
@@ -103,6 +95,14 @@ public class SudokuVerifier {
 		}
 		
 		return true;
+	}
+	
+	public boolean checkRuleOne(String input) {
+		if(input.matches("[0-9]{81}"))
+		{
+			return true;
+		}
+		return false;
 	}
 	
 	public boolean checkRuleTwo(String string) {
