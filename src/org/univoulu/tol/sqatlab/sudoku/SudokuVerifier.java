@@ -122,14 +122,16 @@ public class SudokuVerifier {
 				return false;
 			}
 			
-			System.out.println("next round");
-			
 			digitCounterY++;
 			if(digitCounterY > 2)
 			{
 				digitCounterY = 0;
 				digitCounterX++;
 			}
+			
+			System.out.println("next round");
+			System.out.println("digitCounterX: " + digitCounterX);
+			System.out.println("digitCounterY: " + digitCounterY);
 		}
 		/*
 		for(int i = 0; i < 3; i++)
