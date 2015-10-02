@@ -92,3 +92,9 @@ EditAction 1443810853574 SudokuVerifier.java 3209 9 33 0
 UnitTestCaseAction 1443810855734 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443810855735 TestSudokuVerifier OK
 EditAction 1443810891365 SudokuVerifier.java 3244 9 34 0
+UnitTestCaseAction 1443810893688 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443810893689 TestSudokuVerifier OK
+RefactoringAction 1443810946147 TestSudokuVerifier.java REMOVE testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443810946150 TestSudokuVerifier.java REMOVE testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443810948692 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443810949100 TestSudokuVerifier.java 3998 6 19 9
