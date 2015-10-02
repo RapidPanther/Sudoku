@@ -135,3 +135,7 @@ EditAction 1443812092264 SudokuVerifier.java 3930 9 36 0
 UnitTestCaseAction 1443812094188 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443812094188 TestSudokuVerifier FAIL
 EditAction 1443812454802 SudokuVerifier.java 3967 9 35 0
+UnitTestCaseAction 1443812457785 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443812457786 TestSudokuVerifier FAIL
+RefactoringAction 1443812483288 TestSudokuVerifier.java REMOVE testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443812487824 TestSudokuVerifier.java 4002 6 19 9
