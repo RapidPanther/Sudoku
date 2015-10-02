@@ -166,3 +166,7 @@ EditAction 1443819119033 TestSudokuVerifier.java 4002 6 19 9
 UnitTestCaseAction 1443819163543 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443819163544 TestSudokuVerifier OK
 EditAction 1443819291140 TestSudokuVerifier.java 3894 6 19 9
+UnitTestCaseAction 1443819374834 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443819374835 TestSudokuVerifier OK
+RefactoringAction 1443819385154 TestSudokuVerifier.java ADD void testVerify_CorrectString_ReturnsZero() METHOD
+EditAction 1443819391079 TestSudokuVerifier.java 3884 7 22 10

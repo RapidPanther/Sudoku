@@ -24,15 +24,13 @@ public class TestSudokuVerifier {
 		assertEquals(numbers[2], 7);
 		assertEquals(numbers[80], 3);
 	}
-	/*
+	
 	@Test
 	public void testVerify_CorrectString_ReturnsZero(){
 		sudokuVerifier = new SudokuVerifier();
 		int validity = sudokuVerifier.verify(correctSudoku);
 		assertEquals(0, validity);
 	}
-	*/
-	
 	
 	@Test
 	public void testVerify_WrongString_ReturnsMinusOne(){
