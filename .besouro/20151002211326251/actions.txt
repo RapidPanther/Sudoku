@@ -38,3 +38,9 @@ EditAction 1443810299459 SudokuVerifier.java 3128 9 32 0
 UnitTestCaseAction 1443810300498 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443810300499 TestSudokuVerifier FAIL
 EditAction 1443810313781 SudokuVerifier.java 3130 9 32 0
+RefactoringAction 1443810361510 TestSudokuVerifier.java REMOVE testCheckNineDigits_OneToNineReturnTrue() METHOD
+RefactoringAction 1443810361521 TestSudokuVerifier.java REMOVE testCheckRuleFour_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443810361522 TestSudokuVerifier.java REMOVE testCheckNineDigits_NotOneToNineReturnFalse() METHOD
+RefactoringAction 1443810364056 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue() METHOD
+RefactoringAction 1443810364058 TestSudokuVerifier.java ADD void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
+EditAction 1443810377233 TestSudokuVerifier.java 3867 11 31 14
