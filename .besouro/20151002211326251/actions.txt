@@ -49,3 +49,5 @@ RefactoringAction 1443810400535 TestSudokuVerifier.java REMOVE testCheckRuleThre
 RefactoringAction 1443810411718 TestSudokuVerifier.java REMOVE testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
 EditAction 1443810416131 TestSudokuVerifier.java 3938 8 25 11
 EditAction 1443810419326 TestSudokuVerifier.java 3960 8 25 11
+RefactoringAction 1443810423402 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443810424786 TestSudokuVerifier.java 3949 9 27 12
