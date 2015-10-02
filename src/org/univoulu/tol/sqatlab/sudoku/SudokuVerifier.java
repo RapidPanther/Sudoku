@@ -116,7 +116,7 @@ public class SudokuVerifier {
 					counter++;
 				}
 			}
-			System.out.print("next round);
+			System.out.println("next round");
 			if(true)
 			{
 				
