@@ -89,7 +89,7 @@ public class SudokuVerifier {
 	
 	//R2: All digits appear only once in a sub-grid, i.e. they cannot repeat.
 	public boolean checkRuleTwo(String string) {
-		/*
+		
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
 		int[] digit = new int[9];
 		
@@ -107,7 +107,7 @@ public class SudokuVerifier {
 			return false;
 		}
 		
-		*/
+		
 		
 		return true;
 	}
