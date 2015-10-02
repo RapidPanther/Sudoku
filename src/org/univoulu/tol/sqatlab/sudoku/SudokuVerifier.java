@@ -10,35 +10,23 @@ public class SudokuVerifier {
 	
 	
 	public int verify(String candidateSolution) {
-		int numbers[] = changeStringToIntArray(candidateSolution);
-		
-		
-		//check if String is correct
-		
-		//check rule one
-		
-		if(!checkRuleOne(candidateSolution)){
-			return  -1;
+		if(!checkRuleOne(candidateSolution))
+		{
+			return -1;
 		}
-		
-		if(!checkRuleTwo(candidateSolution)){
+		if(!checkRuleTwo(candidateSolution))
+		{
 			return -2;
 		}
-		
-		if(!checkRuleThree(candidateSolution)){
+		if(!checkRuleThree(candidateSolution))
+		{
 			return -3;
 		}
-		
-		if(!checkRuleFour(candidateSolution)){
+		if(!checkRuleFour(candidateSolution))
+		{
 			return -4;
 		}
 		
-		
-		
-		
-		
-		
-		// returns 1 if the candidate solution is correct
 		return 0;
 	}
 

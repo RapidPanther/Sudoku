@@ -8,3 +8,4 @@ EditAction 1443809700661 SudokuVerifier.java 3093 9 28 0
 RefactoringAction 1443809711866 SudokuVerifier.java REMOVE checkRuleOne(String) METHOD
 RefactoringAction 1443809717500 SudokuVerifier.java ADD boolean checkRuleOne(String) METHOD
 EditAction 1443809719534 SudokuVerifier.java 3093 9 28 0
+EditAction 1443809777939 SudokuVerifier.java 2893 9 27 0
