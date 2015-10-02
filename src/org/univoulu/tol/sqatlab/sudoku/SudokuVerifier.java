@@ -99,7 +99,7 @@ public class SudokuVerifier {
 		int xValue = 0;
 		int yValue = 0;
 		
-		while(digitCounterX <= 2 && digitCounterY <= 2)
+		while(digitCounterX < 2 && digitCounterY < 2)
 		{			
 			for(int i = 0; i < 3; i++)
 			{
@@ -115,17 +115,21 @@ public class SudokuVerifier {
 					counter++;
 				}
 			}
-			System.out.println("next round");
-			if(true)
+			
+			if(!checkNineDigits(digit))
 			{
+				return false;
+			}
+			
+			System.out.println("next round");
+			
+			digitCounterY++;
+			if(digitCounterY > 2)
+			{
+				digitCounterY = 0;
 				digitCounterX++;
-				digitCounterY++;
 			}
 		}
-		
-		
-		
-		
 		/*
 		for(int i = 0; i < 3; i++)
 		{
@@ -144,10 +148,6 @@ public class SudokuVerifier {
 		System.out.println();
 		*/
 		
-		if(!checkNineDigits(digit))
-		{
-			return false;
-		}
 		
 		
 		
