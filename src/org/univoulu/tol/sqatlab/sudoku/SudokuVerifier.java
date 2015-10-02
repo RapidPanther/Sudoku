@@ -96,22 +96,23 @@ public class SudokuVerifier {
 		int counter = 0;
 		int digitCounterX = 0;
 		int digitCounterY = 0;
-		int sudokuXValue = 0;
-		int sudokuYValue = 0;
+		int xValue = 0;
+		int yValue = 0;
 		
 		while(digitCounterX <= 2 && digitCounterY <= 2)
 		{
-			sudokuXValue = 0;
-			sudokuYValue = 0;
+			xValue = 0;
+			yValue = 0;
 			
 			for(int i = 0; i < 3; i++)
 			{
 				for(int j = 0; j < 3; j++)
 				{
-					sudokuXValue = i + digitCounterX * 3;
-					sudokuYValue = j + digitCounterY * 3;
+					xValue = i + digitCounterX * 3;
+					yValue = j + digitCounterY * 3;
+					System.out.println("xValue " + xValue);
 					
-					digit[counter] = numbers[sudokuXValue][sudokuYValue];
+					digit[counter] = numbers[xValue][yValue];
 					System.out.print(counter);
 					counter++;
 				}
