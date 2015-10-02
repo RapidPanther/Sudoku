@@ -109,3 +109,4 @@ RefactoringAction 1443810979262 SudokuVerifier.java REMOVE checkRuleFour(String)
 RefactoringAction 1443810982796 SudokuVerifier.java ADD boolean checkRuleThree(String) METHOD
 RefactoringAction 1443810982798 SudokuVerifier.java ADD boolean checkRuleFour(String) METHOD
 EditAction 1443810983398 SudokuVerifier.java 3256 9 32 0
+EditAction 1443811560879 SudokuVerifier.java 3652 9 26 0

@@ -94,6 +94,31 @@ public class SudokuVerifier {
 		int[] digit = new int[9];
 		
 		int counter = 0;
+		int digitCounterX = 0;
+		int digitCounterY = 0;
+		int digitXValue = 0;
+		int digitYValue = 0;
+		
+		while(digitCounterX <= 2 && digitCounterY <= 2)
+		{
+			digitXValue = 0;
+			digitYValue = 0;
+			
+			for(int i = 0; i < 3; i++)
+			{
+				for(int j = 0; j < 3; j++)
+				{
+					
+					digit[counter] = numbers[i * ][j];
+							counter++;
+				}
+			}
+		}
+		
+		
+		
+		
+		/*
 		for(int i = 0; i < 3; i++)
 		{
 			for(int j = 0; j < 3; j++){
@@ -102,6 +127,7 @@ public class SudokuVerifier {
 				counter++;
 			}
 		}
+		*/
 		/*
 		for(int i : digit)
 		{
