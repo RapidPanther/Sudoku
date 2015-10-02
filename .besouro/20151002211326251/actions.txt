@@ -27,3 +27,4 @@ RefactoringAction 1443810135622 SudokuVerifier.java REMOVE appear FIELD
 RefactoringAction 1443810135623 SudokuVerifier.java REMOVE the FIELD
 RefactoringAction 1443810135623 SudokuVerifier.java REMOVE of FIELD
 EditAction 1443810136889 SudokuVerifier.java 2980 9 27 0
+EditAction 1443810147563 SudokuVerifier.java 3056 9 27 0
