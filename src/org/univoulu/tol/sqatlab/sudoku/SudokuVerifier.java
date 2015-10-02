@@ -107,10 +107,11 @@ public class SudokuVerifier {
 				{
 					xValue = i + digitCounterX * 3;
 					yValue = j + digitCounterY * 3;
-					System.out.println("xValue " + xValue);
+					System.out.print("  xValue " + xValue);
+					System.out.print("  yValue " + yValue);
 					
 					digit[counter] = numbers[xValue][yValue];
-					System.out.print(counter);
+					System.out.println(counter);
 					counter++;
 				}
 			}
