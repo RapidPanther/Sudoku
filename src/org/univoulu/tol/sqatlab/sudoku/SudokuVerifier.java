@@ -50,7 +50,7 @@ public class SudokuVerifier {
 			{
 				numbers[i][j] = Character.getNumericValue(numbersChar[counter]);
 				counter++;
-				//System.out.print(numbers[i][j]);
+				//System.out.print(numbers[j][i]);
 			}	
 		}
 		
