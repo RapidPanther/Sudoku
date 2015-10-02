@@ -1,0 +1,7 @@
+FileOpenedAction 1443809606747 TestSudokuVerifier.java 3834 12 33 15
+UnitTestCaseAction 1443809633866 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443809633878 TestSudokuVerifier OK
+FileOpenedAction 1443809637755 SudokuVerifier.java 3193 9 28 0
+RefactoringAction 1443809663973 SudokuVerifier.java REMOVE checkRuleTwo(String) METHOD
+RefactoringAction 1443809671642 SudokuVerifier.java ADD boolean checkRuleTwo(String) METHOD
+EditAction 1443809700661 SudokuVerifier.java 3093 9 28 0

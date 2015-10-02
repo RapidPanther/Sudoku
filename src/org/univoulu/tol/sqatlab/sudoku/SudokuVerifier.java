@@ -84,8 +84,27 @@ public class SudokuVerifier {
 		return numbers;
 	}
 
-
-
+	public boolean checkNineDigits(int[] test) {
+		int[] correctValues = {1,2,3,4,5,6,7,8,9};
+		
+		for (int i: correctValues)
+		{
+			boolean isThere = false;
+			for(int j = 0; j < test.length; j++)
+			{
+				if(i == test[j])
+				{
+					isThere = true;
+				}
+			}
+			if(!isThere){
+				return false;
+			}
+		}
+		
+		return true;
+	}
+	
 	public boolean checkRuleTwo(String string) {
 		/*
 		int numbers[][] = changeStringToTwoDimensionalIntArray(string);
@@ -110,36 +129,9 @@ public class SudokuVerifier {
 		return true;
 	}
 
-
-
-	public boolean checkNineDigits(int[] test) {
-		int[] correctValues = {1,2,3,4,5,6,7,8,9};
-		
-		for (int i: correctValues)
-		{
-			boolean isThere = false;
-			for(int j = 0; j < test.length; j++)
-			{
-				if(i == test[j])
-				{
-					isThere = true;
-				}
-			}
-			if(!isThere){
-				return false;
-			}
-		}
-		
-		return true;
-	}
-
-
-
 	public boolean checkRuleThree(String test) {
-		int numbers[] = changeStringToIntArray(test);
-		
-		int[] digit = new int[9]; 
-		
+		int numbers[] = changeStringToIntArray(test);		
+		int[] digit = new int[9]; 	
 		
 		for(int i = 0; i < numbers.length; i++)
 		{
@@ -150,14 +142,9 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		
-		
 		return true;
 	}
 
-	// to do
-	//this check doesn't work
-	//or probably wrong number
 	public boolean checkRuleFour(String test) {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(test);
 		
@@ -174,8 +161,6 @@ public class SudokuVerifier {
 			}
 			//System.out.println();
 		}
-		
-		
 		return true;
 	}
 	
