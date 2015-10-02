@@ -119,7 +119,8 @@ public class SudokuVerifier {
 			System.out.println("next round");
 			if(true)
 			{
-				
+				digitCounterX++;
+				digitCounterY++;
 			}
 		}
 		
