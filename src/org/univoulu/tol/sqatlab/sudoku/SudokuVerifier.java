@@ -120,6 +120,7 @@ public class SudokuVerifier {
 			{
 				return false;
 			}
+			counter = 0;
 			
 			System.out.println("next round");
 			
