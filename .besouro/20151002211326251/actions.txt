@@ -63,3 +63,6 @@ RefactoringAction 1443810494249 TestSudokuVerifier.java REMOVE testCheckRuleOne_
 UnitTestCaseAction 1443810506637 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443810506638 TestSudokuVerifier FAIL
 EditAction 1443810557750 SudokuVerifier.java 3128 9 32 0
+UnitTestCaseAction 1443810559662 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443810559662 TestSudokuVerifier FAIL
+EditAction 1443810625784 SudokuVerifier.java 3144 9 32 0
