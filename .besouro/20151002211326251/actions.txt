@@ -56,3 +56,10 @@ UnitTestSessionAction 1443810427338 TestSudokuVerifier FAIL
 RefactoringAction 1443810447121 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleThree_ReturnsMinusThree() METHOD
 RefactoringAction 1443810457186 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
 EditAction 1443810458019 TestSudokuVerifier.java 3991 7 21 10
+UnitTestCaseAction 1443810460939 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443810460940 TestSudokuVerifier FAIL
+RefactoringAction 1443810490726 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue()/2 METHOD
+RefactoringAction 1443810494249 TestSudokuVerifier.java REMOVE testCheckRuleOne_CorrectStringReturnTrue()/2 METHOD
+UnitTestCaseAction 1443810506637 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443810506638 TestSudokuVerifier FAIL
+EditAction 1443810557750 SudokuVerifier.java 3128 9 32 0
