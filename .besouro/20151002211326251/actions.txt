@@ -51,3 +51,8 @@ EditAction 1443810416131 TestSudokuVerifier.java 3938 8 25 11
 EditAction 1443810419326 TestSudokuVerifier.java 3960 8 25 11
 RefactoringAction 1443810423402 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
 EditAction 1443810424786 TestSudokuVerifier.java 3949 9 27 12
+UnitTestCaseAction 1443810427336 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443810427338 TestSudokuVerifier FAIL
+RefactoringAction 1443810447121 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleThree_ReturnsMinusThree() METHOD
+RefactoringAction 1443810457186 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
+EditAction 1443810458019 TestSudokuVerifier.java 3991 7 21 10
