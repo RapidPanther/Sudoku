@@ -132,6 +132,7 @@ public class SudokuVerifier {
 			System.out.println("next round");
 			System.out.println("digitCounterX: " + digitCounterX);
 			System.out.println("digitCounterY: " + digitCounterY);
+			System.out.println();
 		}
 		/*
 		for(int i = 0; i < 3; i++)
