@@ -44,3 +44,7 @@ RefactoringAction 1443810361522 TestSudokuVerifier.java REMOVE testCheckNineDigi
 RefactoringAction 1443810364056 TestSudokuVerifier.java ADD void testCheckNineDigits_OneToNineReturnTrue() METHOD
 RefactoringAction 1443810364058 TestSudokuVerifier.java ADD void testCheckNineDigits_NotOneToNineReturnFalse() METHOD
 EditAction 1443810377233 TestSudokuVerifier.java 3867 11 31 14
+RefactoringAction 1443810390915 TestSudokuVerifier.java REMOVE testCheckRuleFour_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443810400535 TestSudokuVerifier.java REMOVE testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443810411718 TestSudokuVerifier.java REMOVE testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
+EditAction 1443810416131 TestSudokuVerifier.java 3938 8 25 11
