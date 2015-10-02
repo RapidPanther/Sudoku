@@ -103,7 +103,10 @@ public class SudokuVerifier {
 			}
 		}
 		for(int i : digit)
+		{
 			System.out.print(i);
+		}
+		System.out.println();
 		
 		if(!checkNineDigits(digit))
 		{
