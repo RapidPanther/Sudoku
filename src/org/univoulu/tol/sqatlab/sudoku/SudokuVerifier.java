@@ -1,14 +1,10 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
-import java.util.Arrays;
-
 public class SudokuVerifier {
 	public SudokuVerifier(){
 		
 	}
-	
-	
-	
+
 	public int verify(String candidateSolution) {
 		if(!checkRuleOne(candidateSolution))
 		{
@@ -32,7 +28,6 @@ public class SudokuVerifier {
 
 	public int[] changeStringToIntArray(String sudokuSolution) {
 		char numbersChar[] = sudokuSolution.toCharArray(); 
-		
 		int numbers[] = new int[81];
 		
 		for(int i = 0; i < numbers.length; i++)
@@ -46,9 +41,9 @@ public class SudokuVerifier {
 	
 	public int[][] changeStringToTwoDimensionalIntArray(String sudokuSolution) {
 		char numbersChar[] = sudokuSolution.toCharArray(); 
-		
 		int numbers[][] = new int[9][9];
 		int counter = 0;
+		
 		for(int i = 0; i < 9; i++)
 		{
 			for(int j = 0; j < 9; j++)
@@ -57,8 +52,6 @@ public class SudokuVerifier {
 				counter++;
 				//System.out.print(numbers[i][j]);
 			}	
-			
-			
 		}
 		
 		return numbers;
