@@ -98,3 +98,9 @@ RefactoringAction 1443810946147 TestSudokuVerifier.java REMOVE testCheckRuleTwo_
 RefactoringAction 1443810946150 TestSudokuVerifier.java REMOVE testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
 RefactoringAction 1443810948692 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
 EditAction 1443810949100 TestSudokuVerifier.java 3998 6 19 9
+UnitTestCaseAction 1443810951233 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443810951234 TestSudokuVerifier OK
+RefactoringAction 1443810960754 TestSudokuVerifier.java REMOVE testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+RefactoringAction 1443810962770 TestSudokuVerifier.java ADD void testCheckRuleTwo_CorrectSolutionReturnTrue() METHOD
+RefactoringAction 1443810962771 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443810965647 TestSudokuVerifier.java 3992 7 21 10
