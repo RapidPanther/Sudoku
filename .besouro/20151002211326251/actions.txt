@@ -35,3 +35,6 @@ RefactoringAction 1443810156352 SudokuVerifier.java ADD can only FIELD
 RefactoringAction 1443810156353 SudokuVerifier.java ADD store positive FIELD
 EditAction 1443810159423 SudokuVerifier.java 3132 9 27 0
 EditAction 1443810299459 SudokuVerifier.java 3128 9 32 0
+UnitTestCaseAction 1443810300498 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443810300499 TestSudokuVerifier FAIL
+EditAction 1443810313781 SudokuVerifier.java 3130 9 32 0
