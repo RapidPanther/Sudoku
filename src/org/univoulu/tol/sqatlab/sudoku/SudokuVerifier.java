@@ -110,6 +110,7 @@ public class SudokuVerifier {
 		return true;
 	}
 
+	//R3: A digit can appear only once in the rows of the global grid.
 	public boolean checkRuleThree(String test) {
 		int numbers[] = changeStringToIntArray(test);		
 		int[] digit = new int[9]; 	
@@ -125,7 +126,8 @@ public class SudokuVerifier {
 		}
 		return true;
 	}
-
+	
+	//R4: A digit can appear only once in the columns of the global grid.
 	public boolean checkRuleFour(String test) {
 		int numbers[][] = changeStringToTwoDimensionalIntArray(test);
 		
