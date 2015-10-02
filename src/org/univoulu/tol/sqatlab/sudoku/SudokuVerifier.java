@@ -100,7 +100,8 @@ public class SudokuVerifier {
 		int yValue = 0;
 		
 		while(digitCounterX < 2 && digitCounterY < 2)
-		{			
+		{		
+			counter = 0;
 			for(int i = 0; i < 3; i++)
 			{
 				for(int j = 0; j < 3; j++)
@@ -120,7 +121,6 @@ public class SudokuVerifier {
 			{
 				return false;
 			}
-			counter = 0;
 			
 			System.out.println("next round");
 			
