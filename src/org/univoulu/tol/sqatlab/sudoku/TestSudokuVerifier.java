@@ -31,7 +31,7 @@ public class TestSudokuVerifier {
 		int[][] numbers = sudokuVerifier.changeStringToTwoDimensionalIntArray(correctSudoku);
 		
 		assertEquals(1, numbers[0][1]);
-		assertEquals(8, numbers[0][7]);
+		assertEquals(2, numbers[0][7]);
 		assertEquals(6, numbers[1][0]);
 		assertEquals(4, numbers[8][8]);
 	}
