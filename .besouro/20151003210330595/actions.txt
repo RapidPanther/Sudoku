@@ -25,3 +25,7 @@ RefactoringAction 1443895884570 TestSudokuVerifier.java ADD void testVerify_Wron
 RefactoringAction 1443895889200 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
 RefactoringAction 1443895898350 TestSudokuVerifier.java REMOVE testVerify_WrongStringRuleFour_ReturnsMinusFour() METHOD
 EditAction 1443895899167 TestSudokuVerifier.java 3852 8 25 11
+UnitTestCaseAction 1443895904260 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443895904261 TestSudokuVerifier FAIL
+RefactoringAction 1443895915439 TestSudokuVerifier.java ADD void testCheckRuleTwo_IncorrectSolutionReturnFalse() METHOD
+EditAction 1443895921910 TestSudokuVerifier.java 3842 9 27 12
