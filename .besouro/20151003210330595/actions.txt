@@ -2,3 +2,8 @@ FileOpenedAction 1443895411377 TestSudokuVerifier.java 3884 7 22 10
 RefactoringAction 1443895569665 TestSudokuVerifier.java REMOVE failRuleOne FIELD
 RefactoringAction 1443895575887 TestSudokuVerifier.java ADD String failRuleOne FIELD
 EditAction 1443895640660 TestSudokuVerifier.java 3994 7 22 10
+UnitTestCaseAction 1443895643985 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443895643995 TestSudokuVerifier FAIL
+RefactoringAction 1443895697246 TestSudokuVerifier.java REMOVE failRuleOne FIELD
+RefactoringAction 1443895699386 TestSudokuVerifier.java ADD String failRuleOne FIELD
+EditAction 1443895700886 TestSudokuVerifier.java 3884 7 22 10
