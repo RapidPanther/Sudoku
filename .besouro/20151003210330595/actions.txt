@@ -7,3 +7,11 @@ UnitTestSessionAction 1443895643995 TestSudokuVerifier FAIL
 RefactoringAction 1443895697246 TestSudokuVerifier.java REMOVE failRuleOne FIELD
 RefactoringAction 1443895699386 TestSudokuVerifier.java ADD String failRuleOne FIELD
 EditAction 1443895700886 TestSudokuVerifier.java 3884 7 22 10
+UnitTestCaseAction 1443895701697 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443895701698 TestSudokuVerifier OK
+RefactoringAction 1443895707063 TestSudokuVerifier.java ADD String failRuleOne/2 FIELD
+RefactoringAction 1443895712123 TestSudokuVerifier.java REMOVE failRuleOne/2 FIELD
+RefactoringAction 1443895719705 TestSudokuVerifier.java REMOVE failRuleTwo FIELD
+RefactoringAction 1443895721790 TestSudokuVerifier.java ADD String failRuleOne/2 FIELD
+RefactoringAction 1443895729345 TestSudokuVerifier.java RENAME failRuleOne/2=>String failRuleTwo FIELD
+EditAction 1443895730272 TestSudokuVerifier.java 3994 7 22 10
