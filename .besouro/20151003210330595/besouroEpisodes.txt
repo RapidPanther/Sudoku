@@ -140,3 +140,15 @@
 1443896904913 test-addition 2 203 true
 1443896904914 test-addition 1 203 true
 1443896904915 test-addition 1 203 true
+1443897300327 test-addition 2 382 true
+1443897300328 test-addition 1 382 true
+1443897300329 test-addition 2 382 true
+1443897300330 test-addition 2 382 true
+1443897300331 test-addition 2 382 true
+1443897300332 test-addition 2 382 true
+1443897300333 test-addition 1 382 true
+1443897300334 test-addition 2 382 true
+1443897300335 test-addition 2 382 true
+1443897300336 test-addition 2 382 true
+1443897300337 test-addition 2 382 true
+1443897300338 test-addition 1 382 true
