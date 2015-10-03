@@ -112,7 +112,7 @@ public class SudokuVerifier {
 					System.out.print("  yValue " + yValue);
 					
 					digit[counter] = numbers[xValue][yValue];
-					System.out.println(" counter: " + counter);
+					System.out.println(" counter: " + counter + "     value: " + digit[counter]);
 					counter++;
 				}
 			}
