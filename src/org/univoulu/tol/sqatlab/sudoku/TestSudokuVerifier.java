@@ -15,6 +15,8 @@ public class TestSudokuVerifier {
 	String failRuleFour = "147369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	
 	
+	// String to Int Array Method:
+	
 	@Test
 	public void testChangeStringToIntArray() {
 		sudokuVerifier = new SudokuVerifier();
@@ -40,6 +42,8 @@ public class TestSudokuVerifier {
 		assertEquals(3, numbers[8][8]);
 	}
 	
+	
+	//Method Verify:
 	
 	@Test
 	public void testVerify_CorrectString_ReturnsZero(){
@@ -75,12 +79,22 @@ public class TestSudokuVerifier {
 		int validity = sudokuVerifier.verify(failRuleFour);
 		assertEquals(-4, validity);
 	}
-		
+	
+	
+	//Methods for checking a single rule:
+	
 	@Test
 	public void testCheckRuleOne_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleOne(correctSudoku));
 	}
+	
+	@Test
+	public void testCheckRuleOne_WrongStringReturnFalse(){
+		sudokuVerifier = new SudokuVerifier();
+		assertEquals(false, sudokuVerifier.checkRuleOne(failRuleOne));
+	}
+	
 	
 	@Test
 	public void testCheckRuleTwo_CorrectSolutionReturnTrue(){

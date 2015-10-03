@@ -134,3 +134,10 @@ RefactoringAction 1443897438218 TestSudokuVerifier.java ADD void testVerify_Wron
 RefactoringAction 1443897442740 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleOne_ReturnsMinusOne()/2=>void testVerify_WrongStringRuleTwo_ReturnsMinusOne() METHOD
 RefactoringAction 1443897446765 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleTwo_ReturnsMinusOne()=>void testVerify_WrongStringRuleTwo_ReturnsMinusTwo() METHOD
 EditAction 1443897454775 TestSudokuVerifier.java 4372 16 50 25
+UnitTestCaseAction 1443897460021 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443897460022 TestSudokuVerifier OK
+RefactoringAction 1443897586877 TestSudokuVerifier.java ADD void testCheckRuleOne_CorrectStringReturnTrue()/2 METHOD
+RefactoringAction 1443897589897 TestSudokuVerifier.java RENAME testCheckRuleOne_CorrectStringReturnTrue()/2=>void testCheckRuleOne_WStringReturnTrue() METHOD
+RefactoringAction 1443897591419 TestSudokuVerifier.java RENAME testCheckRuleOne_WStringReturnTrue()=>void testCheckRuleOne_WrongStringReturnTrue() METHOD
+RefactoringAction 1443897594460 TestSudokuVerifier.java RENAME testCheckRuleOne_WrongStringReturnTrue()=>void testCheckRuleOne_WrongStringReturnFalse() METHOD
+EditAction 1443897606043 TestSudokuVerifier.java 4658 17 52 26
