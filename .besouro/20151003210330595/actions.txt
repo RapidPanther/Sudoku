@@ -99,3 +99,6 @@ UnitTestSessionAction 1443896744481 TestSudokuVerifier FAIL
 RefactoringAction 1443896884579 TestSudokuVerifier.java REMOVE failRuleFour FIELD
 RefactoringAction 1443896893716 TestSudokuVerifier.java ADD String failRuleFour FIELD
 EditAction 1443896901411 TestSudokuVerifier.java 3883 14 39 17
+UnitTestCaseAction 1443896904879 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443896904880 TestSudokuVerifier OK
+EditAction 1443896917754 TestSudokuVerifier.java 3772 14 39 17
