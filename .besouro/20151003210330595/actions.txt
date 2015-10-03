@@ -15,3 +15,4 @@ RefactoringAction 1443895719705 TestSudokuVerifier.java REMOVE failRuleTwo FIELD
 RefactoringAction 1443895721790 TestSudokuVerifier.java ADD String failRuleOne/2 FIELD
 RefactoringAction 1443895729345 TestSudokuVerifier.java RENAME failRuleOne/2=>String failRuleTwo FIELD
 EditAction 1443895730272 TestSudokuVerifier.java 3994 7 22 10
+EditAction 1443895736093 TestSudokuVerifier.java 3994 7 22 10
