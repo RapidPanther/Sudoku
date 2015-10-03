@@ -42,3 +42,4 @@ UnitTestSessionAction 1443895985306 TestSudokuVerifier FAIL
 RefactoringAction 1443896158750 TestSudokuVerifier.java ADD String failRuleTwo/2 FIELD
 RefactoringAction 1443896165319 TestSudokuVerifier.java REMOVE failRuleTwo/2 FIELD
 EditAction 1443896166188 TestSudokuVerifier.java 3888 11 31 14
+EditAction 1443896173359 TestSudokuVerifier.java 3888 11 31 14
