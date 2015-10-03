@@ -19,10 +19,10 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		int[] numbers = sudokuVerifier.changeStringToIntArray(correctSudoku);
 		
-		assertEquals(numbers[0], 4);
-		assertEquals(numbers[1], 1);
-		assertEquals(numbers[2], 7);
-		assertEquals(numbers[80], 3);
+		assertEquals(4,numbers[0]);
+		assertEquals(1, numbers[1]);
+		assertEquals(7, numbers[2]);
+		assertEquals(3, numbers[80]);
 	}
 	
 	@Test
@@ -30,10 +30,10 @@ public class TestSudokuVerifier {
 		sudokuVerifier = new SudokuVerifier();
 		int[][] numbers = sudokuVerifier.changeStringToTwoDimensionalIntArray(correctSudoku);
 		
-		assertEquals(numbers[0][1], 1);
-		assertEquals(numbers[0][7], 8);
-		assertEquals(numbers[1][0], 6);
-		assertEquals(numbers[8][8], 4);
+		assertEquals(1, numbers[0][1]);
+		assertEquals(8, numbers[0][7]);
+		assertEquals(6, numbers[1][0]);
+		assertEquals(4, numbers[8][8]);
 	}
 	
 	@Test
