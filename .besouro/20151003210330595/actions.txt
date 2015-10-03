@@ -153,3 +153,6 @@ RefactoringAction 1443897651860 TestSudokuVerifier.java RENAME testCheckRuleThre
 RefactoringAction 1443897655396 TestSudokuVerifier.java RENAME testCheckRuleFour_IncorrectSolutionReturnFalse()=>void testCheckRuleFour_IncorrectStringReturnFalse() METHOD
 RefactoringAction 1443897656922 TestSudokuVerifier.java RENAME testCheckRuleFour_CorrectSolutionReturnTrue()=>void testCheckRuleFour_CorrectStringReturnTrue() METHOD
 EditAction 1443897687615 TestSudokuVerifier.java 4689 17 52 26
+RefactoringAction 1443897742278 TestSudokuVerifier.java REMOVE testCheckRuleFour_CorrectStringReturnTrue() METHOD
+RefactoringAction 1443897747343 TestSudokuVerifier.java ADD void testCheckRuleFour_CorrectStringReturnTrue() METHOD
+EditAction 1443897747844 TestSudokuVerifier.java 4685 17 52 26

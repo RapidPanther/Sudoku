@@ -120,17 +120,16 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testCheckRuleFour_IncorrectStringReturnFalse(){
-		sudokuVerifier = new SudokuVerifier();
-		assertEquals(false, sudokuVerifier.checkRuleFour(failRuleFour));
-	}
-		 
-	@Test
 	public void testCheckRuleFour_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleFour(correctSudoku));
 	}
 	
+	@Test
+	public void testCheckRuleFour_IncorrectStringReturnFalse(){
+		sudokuVerifier = new SudokuVerifier();
+		assertEquals(false, sudokuVerifier.checkRuleFour(failRuleFour));
+	}	
 	
 	//Check single digit(3x3) Method:
 	
