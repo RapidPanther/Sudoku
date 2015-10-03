@@ -14,6 +14,7 @@ public class TestSudokuVerifier {
 	String failRuleThree = "412369825637158947958724316825437169791586432346912758289643571573291684164875293";
 	String failRuleFour = "147369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	
+	
 	@Test
 	public void testChangeStringToIntArray() {
 		sudokuVerifier = new SudokuVerifier();
@@ -39,6 +40,7 @@ public class TestSudokuVerifier {
 		assertEquals(3, numbers[8][8]);
 	}
 	
+	
 	@Test
 	public void testVerify_CorrectString_ReturnsZero(){
 		sudokuVerifier = new SudokuVerifier();
@@ -47,12 +49,19 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerify_WrongString_ReturnsMinusOne(){
+	public void testVerify_WrongStringRuleOne_ReturnsMinusOne(){
 		sudokuVerifier = new SudokuVerifier();
 		int validity = sudokuVerifier.verify(failRuleOne);
 		assertEquals(-1, validity);
 	}	
-
+	
+	@Test
+	public void testVerify_WrongStringRuleTwo_ReturnsMinusTwo(){
+		sudokuVerifier = new SudokuVerifier();
+		int validity = sudokuVerifier.verify(failRuleTwo);
+		assertEquals(-2, validity);
+	}
+	
 	@Test
 	public void testVerify_WrongStringRuleThree_ReturnsMinusThree(){
 		sudokuVerifier = new SudokuVerifier();

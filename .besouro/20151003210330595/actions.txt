@@ -127,3 +127,10 @@ RefactoringAction 1443897334426 SudokuVerifier.java REMOVE checkRuleFour(String)
 RefactoringAction 1443897340130 SudokuVerifier.java ADD boolean checkRuleThree(String) METHOD
 RefactoringAction 1443897340131 SudokuVerifier.java ADD boolean checkRuleFour(String) METHOD
 EditAction 1443897340510 SudokuVerifier.java 3892 9 35 0
+UnitTestCaseAction 1443897342303 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443897342304 TestSudokuVerifier OK
+RefactoringAction 1443897393605 TestSudokuVerifier.java RENAME testVerify_WrongString_ReturnsMinusOne()=>void testVerify_WrongStringRuleOne_ReturnsMinusOne() METHOD
+RefactoringAction 1443897438218 TestSudokuVerifier.java ADD void testVerify_WrongStringRuleOne_ReturnsMinusOne()/2 METHOD
+RefactoringAction 1443897442740 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleOne_ReturnsMinusOne()/2=>void testVerify_WrongStringRuleTwo_ReturnsMinusOne() METHOD
+RefactoringAction 1443897446765 TestSudokuVerifier.java RENAME testVerify_WrongStringRuleTwo_ReturnsMinusOne()=>void testVerify_WrongStringRuleTwo_ReturnsMinusTwo() METHOD
+EditAction 1443897454775 TestSudokuVerifier.java 4372 16 50 25
