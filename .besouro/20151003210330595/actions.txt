@@ -156,3 +156,6 @@ EditAction 1443897687615 TestSudokuVerifier.java 4689 17 52 26
 RefactoringAction 1443897742278 TestSudokuVerifier.java REMOVE testCheckRuleFour_CorrectStringReturnTrue() METHOD
 RefactoringAction 1443897747343 TestSudokuVerifier.java ADD void testCheckRuleFour_CorrectStringReturnTrue() METHOD
 EditAction 1443897747844 TestSudokuVerifier.java 4685 17 52 26
+UnitTestCaseAction 1443897749931 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443897749932 TestSudokuVerifier OK
+EditAction 1443897796111 SudokuVerifier.java 3890 9 35 0
