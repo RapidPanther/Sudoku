@@ -74,21 +74,17 @@ public class TestSudokuVerifier {
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
 	
-	/* new testString needed
 	@Test
 	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleThree(correctSudoku));
 	}
-	*/
 	
-	/* new testString needed
 	@Test
 	public void testCheckRuleThree_IncorrectSolutionReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleThree(failRuleThree));
 	}
-	*/
 	
 	/* new testString needed
 	@Test
