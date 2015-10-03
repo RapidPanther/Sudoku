@@ -71,6 +71,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testCheckRuleTwo_IncorrectSolutionReturnFalse(){
+		System.out.println("testCheckRuleTwo_IncorrectSolutionReturnFalse");
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
