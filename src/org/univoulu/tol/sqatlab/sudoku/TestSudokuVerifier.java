@@ -46,16 +46,13 @@ public class TestSudokuVerifier {
 		assertEquals(-3, validity);
 	}
 	
-	/*
 	@Test
 	public void testVerify_WrongStringRuleFour_ReturnsMinusFour(){
 		sudokuVerifier = new SudokuVerifier();
 		int validity = sudokuVerifier.verify(failRuleFour);
 		assertEquals(-4, validity);
 	}
-	*/
-	
-	
+		
 	@Test
 	public void testCheckRuleOne_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
@@ -87,22 +84,17 @@ public class TestSudokuVerifier {
 		assertEquals(false, sudokuVerifier.checkRuleThree(failRuleThree));
 	}
 	
-	/* new testString needed
 	@Test
 	public void testCheckRuleFour_IncorrectSolutionReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleFour(failRuleFour));
 	}
-	*/
-	
-	/* new testString needed
-	 
+		 
 	@Test
 	public void testCheckRuleFour_CorrectSolutionReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleFour(correctSudoku));
 	}
-	*/
 	
 	@Test
 	public void testCheckNineDigits_OneToNineReturnTrue(){
