@@ -90,47 +90,49 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testCheckRuleOne_WrongStringReturnFalse(){
+	public void testCheckRuleOne_IncorrectStringReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleOne(failRuleOne));
 	}
 	
-	
 	@Test
-	public void testCheckRuleTwo_CorrectSolutionReturnTrue(){
+	public void testCheckRuleTwo_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleTwo(correctSudoku));
 	}
 	
 	@Test
-	public void testCheckRuleTwo_IncorrectSolutionReturnFalse(){
+	public void testCheckRuleTwo_IncorrectStringReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleTwo(failRuleTwo));
 	}
 	
 	@Test
-	public void testCheckRuleThree_CorrectSolutionReturnTrue(){
+	public void testCheckRuleThree_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleThree(correctSudoku));
 	}
 	
 	@Test
-	public void testCheckRuleThree_IncorrectSolutionReturnFalse(){
+	public void testCheckRuleThree_IncorrectStringReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleThree(failRuleThree));
 	}
 	
 	@Test
-	public void testCheckRuleFour_IncorrectSolutionReturnFalse(){
+	public void testCheckRuleFour_IncorrectStringReturnFalse(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(false, sudokuVerifier.checkRuleFour(failRuleFour));
 	}
 		 
 	@Test
-	public void testCheckRuleFour_CorrectSolutionReturnTrue(){
+	public void testCheckRuleFour_CorrectStringReturnTrue(){
 		sudokuVerifier = new SudokuVerifier();
 		assertEquals(true, sudokuVerifier.checkRuleFour(correctSudoku));
 	}
+	
+	
+	//Check single digit(3x3) Method:
 	
 	@Test
 	public void testCheckNineDigits_OneToNineReturnTrue(){
