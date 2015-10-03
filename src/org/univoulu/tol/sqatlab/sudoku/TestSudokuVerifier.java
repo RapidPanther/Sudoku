@@ -26,6 +26,17 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testChangeStringToTwoDimensionalIntArray() {
+		sudokuVerifier = new SudokuVerifier();
+		int[][] numbers = sudokuVerifier.changeStringToTwoDimensionalIntArray(correctSudoku);
+		
+		assertEquals(numbers[0][1], 1);
+		assertEquals(numbers[0][7], 8);
+		assertEquals(numbers[1][0], 6);
+		assertEquals(numbers[8][8], 4);
+	}
+	
+	@Test
 	public void testVerify_CorrectString_ReturnsZero(){
 		sudokuVerifier = new SudokuVerifier();
 		int validity = sudokuVerifier.verify(correctSudoku);

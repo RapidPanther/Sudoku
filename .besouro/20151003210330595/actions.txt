@@ -102,3 +102,6 @@ EditAction 1443896901411 TestSudokuVerifier.java 3883 14 39 17
 UnitTestCaseAction 1443896904879 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443896904880 TestSudokuVerifier OK
 EditAction 1443896917754 TestSudokuVerifier.java 3772 14 39 17
+RefactoringAction 1443896937611 TestSudokuVerifier.java ADD void testChangeStringToIntArray()/2 METHOD
+RefactoringAction 1443896943165 TestSudokuVerifier.java RENAME testChangeStringToIntArray()/2=>void testChangeStringToTwoDimensionalIntArray() METHOD
+EditAction 1443897069463 TestSudokuVerifier.java 4121 15 45 21
