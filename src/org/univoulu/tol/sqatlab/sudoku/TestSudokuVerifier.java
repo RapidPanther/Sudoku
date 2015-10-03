@@ -34,7 +34,7 @@ public class TestSudokuVerifier {
 		assertEquals(2, numbers[0][7]);
 		assertEquals(6, numbers[1][0]);
 		assertEquals(3, numbers[4][7]);
-		assertEquals(3, numbers[5][1]);
+		assertEquals(4, numbers[5][1]);
 		assertEquals(8, numbers[7][7]);
 		assertEquals(3, numbers[8][8]);
 	}
