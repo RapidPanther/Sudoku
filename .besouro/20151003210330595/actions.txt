@@ -37,3 +37,8 @@ UnitTestSessionAction 1443895962523 TestSudokuVerifier FAIL
 RefactoringAction 1443895979221 TestSudokuVerifier.java ADD void testCheckRuleThree_IncorrectSolutionReturnFalse() METHOD
 RefactoringAction 1443895980778 TestSudokuVerifier.java ADD void testCheckRuleThree_CorrectSolutionReturnTrue() METHOD
 EditAction 1443895983164 TestSudokuVerifier.java 3778 11 31 14
+UnitTestCaseAction 1443895985305 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443895985306 TestSudokuVerifier FAIL
+RefactoringAction 1443896158750 TestSudokuVerifier.java ADD String failRuleTwo/2 FIELD
+RefactoringAction 1443896165319 TestSudokuVerifier.java REMOVE failRuleTwo/2 FIELD
+EditAction 1443896166188 TestSudokuVerifier.java 3888 11 31 14
