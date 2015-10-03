@@ -138,27 +138,7 @@ public class SudokuVerifier {
 			System.out.println("digitCounterY: " + digitCounterY);
 			System.out.println();
 		}
-		/*
-		for(int i = 0; i < 3; i++)
-		{
-			for(int j = 0; j < 3; j++){
-				digit[counter] = numbers[i][j];
-				System.out.println(digit[counter] + " " + counter);
-				counter++;
-			}
-		}
-		*/
-		/*
-		for(int i : digit)
-		{
-			System.out.print(i);
-		}
-		System.out.println();
-		*/
-		
-		
-		
-		
+
 		return true;
 	}
 
